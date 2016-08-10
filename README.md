@@ -21,7 +21,7 @@ The goal for this course is to begin a journey in which the creative and technic
 
 
 ## Homework Wiki
-- [Homework](https://github.com/ITPNYU/ICM-2015/wiki/Homework-Roopa-Tuesday)
+- [Homework](Wiki)
 
 
 ## Videos
