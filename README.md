@@ -1,5 +1,4 @@
-# MART 191 - Creative Coding
-## Fall 2016
+# MART 191 - Creative Coding | Fall 2016
 
 # SYLLABUS
 
