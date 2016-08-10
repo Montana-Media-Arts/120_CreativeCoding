@@ -1,4 +1,4 @@
-# MART 191 - Creative Coding | Fall 2016
+# MART 191 - Creative Coding  |  Fall 2016
 
 # SYLLABUS
 
@@ -7,6 +7,7 @@ Email:
 
 
 Phone: N/A
+
 
 ## COURSE OVERVIEW
 The goal for this course is to begin a journey in which the creative and technical possibilities of the computer becomes an tool in your palate. The goal for this tool, or rather set of tools, is for them to become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based 'p5.js' programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
@@ -44,8 +45,9 @@ The goal for this course is to begin a journey in which the creative and technic
 
 
 
+## Weekly Breakdown
 
-### 1 -- [Introduction and Drawing](https://github.com/ITPNYU/ICM-2015/raw/master/01_drawing/01_drawing.zip)
+### 1.1 -- Introduction 
 * What is computational media?
   * What is programming?
   * How can I apply programming to _____________?
@@ -68,15 +70,21 @@ The goal for this course is to begin a journey in which the creative and technic
   * When should you post to a forum vs. file a github issue?
   * Who makes these things?
   * [p5.js working group mailing list](http://groups.google.com/forum/#!forum/p5xjs-working-group)
+  * Setting up your own GitHub Blog to submit homework
+    * [SourceTree](https://www.sourcetreeapp.com) vs [GitHub Desktop](https://desktop.github.com) vs [`git`](https://try.github.io/levels/1/challenges/1)
+  * Pulling from this GitHub Site `https://github.com/michaelmusick/MART191_CreativeCoding/`
+
+### 1.2 -- "Hello World" & Drawing
 * Getting started, your first program
-  * [Download Examples](https://github.com/ITPNYU/ICM-2015/raw/master/01_drawing/01_drawing.zip)
+  * Download Examples
   * Drawing with numbers: [video tutorial](https://vimeo.com/channels/learningp5js/137979314)
   * Shape and color functions: [video tutorial](https://vimeo.com/channels/learningp5js/137979312)
   * `setup()` and `draw()`
   * Downloading p5.js
    * Start by [downloading the p5.js editor](http://p5js.org/download/#editor).
   * [p5.js reference](http://p5js.org/reference)
-* [Uploading your sketch](https://github.com/ITPNYU/ICM-2015/wiki/SFTP-Tutorial)
+* [Uploading your sketch !!! ADD SOMETHING](https://github.com/ITPNYU/ICM-2015/wiki/SFTP-Tutorial)
+* Adding your response as a markdown file
 * <a id="optional-1">Optional viewing / reading:</a>
   * Casey Reas [Eyeo 2012 talk](https://vimeo.com/45851523) on Chance Operations
   * [Introductory p5.js videos](https://vimeo.com/channels/learningp5js/)
@@ -84,21 +92,23 @@ The goal for this course is to begin a journey in which the creative and technic
   * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
   * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-### 2 -- [Animation](https://github.com/ITPNYU/ICM-2015/raw/master/02_animation/02_animation.zip)
+### 2.1 -- Labor Day
+
+### 2.2 -- The Basics; function() and variables. Animation.
 - Program flow (what's a function?)
   - Setup, draw, and other events
   - Variation: mouseX and mouseY
   - [video tutorial](https://vimeo.com/channels/learningp5js/138327548)
-- More about variables
+- Variables
   - make your own variables (numbers and strings), [video tutorial](https://vimeo.com/channels/learningp5js/138331676)
+- More about Variables
   - JS objects (variables inside variables), [video tutorial](https://vimeo.com/channels/learningp5js/138327558)
 - [random()](http://p5js.org/reference/#/p5/random), [video tutorial](https://vimeo.com/channels/learningp5js/138327559)
 - [map()](http://p5js.org/reference/#/p5/map), [video tutorial](https://vimeo.com/channels/learningp5js/138331801)
-- [Simple loading and displaying image](https://github.com/ITPNYU/ICM-2015/blob/master/02_animation/02_09_images/sketch.js)
-- [Download all examples](https://github.com/ITPNYU/ICM-2015/raw/master/02_animation/02_animation.zip)
+- Simple loading and displaying image
 
 
-### 3 -- [Interaction](https://github.com/ITPNYU/ICM-2015/raw/master/03_interaction/03_interaction.zip)
+### 3.1 -- Conditional Statements
 - Conditional Statements
     - Boolean expressions
     - if statement
@@ -107,16 +117,20 @@ The goal for this course is to begin a journey in which the creative and technic
     - Case study, bouncing ball: [video tutorial](https://vimeo.com/channels/learningp5js/138935675)
     - else, else if, and, or [video tutorial](https://vimeo.com/channels/learningp5js/138935678)
     - buttons, rollovers, switches [video tutorial](https://vimeo.com/channels/learningp5js/138935677)
+
+### 3.2 -- Conditional Statements Cont'd 
+I may have an orientation session during this class period. Stay tuned for more info...
 - Loops (while and for)
     - while and for [video tutorial](https://vimeo.com/channels/learningp5js/139013336)
     - nested loops [video tutorial](https://vimeo.com/channels/learningp5js/139013372)
-- [Download all examples](https://github.com/ITPNYU/ICM-2015/raw/master/03_interaction/03_interaction.zip)
 
-### 4 -- [Functions: the basics](https://github.com/ITPNYU/ICM-2015/raw/master/04_functions/04_functions.zip)
-- [Download Examples](https://github.com/ITPNYU/ICM-2015/raw/master/04_functions/04_functions.zip)
+### 4.1 -- Functions: the basics
 - Calling vs. defining
 - Modularity: [video](https://vimeo.com/channels/learningp5js/139587733)
 - Arguments and parameters
+
+
+### 4.2 -- Functions: the hard stuff
 - Re-usability: [video](https://vimeo.com/channels/learningp5js/139587732)
 - Return types: [video](https://vimeo.com/channels/learningp5js/139587730)
 - Recursion
@@ -125,8 +139,7 @@ The goal for this course is to begin a journey in which the creative and technic
   - [Work of Art in the Age of Mechanical Reproduction](http://www.berk-edu.com/VisualStudies/readingList/06b_benjamin-work%20of%20art%20in%20the%20age%20of%20mechanical%20reproduction.pdf), Walter Benjamin
 - Homework: TBA (but something like use a function to draw a design different ways, multiple times.  Make a previous sketch modular.)
 
-### 5 -- [Objects and Arrays](https://github.com/ITPNYU/ICM-2015/raw/master/05_objects_arrays/05_objects_arrays.zip)
-* [download examples](https://github.com/ITPNYU/ICM-2015/raw/master/05_objects_arrays/05_objects_arrays.zip)
+### 5.1 -- Objects and Arrays
 * Review object literals:
   * properties - name/value pairs
   * functions inside objects
@@ -136,6 +149,8 @@ The goal for this course is to begin a journey in which the creative and technic
   * numeric indices
   * arrays and for loops: [video tutorial 6.2](https://vimeo.com/141211394)
   * `length` property
+
+### 5.2 -- Objects and Arrays
 * An array of objects! [video tutorial 6.3](https://vimeo.com/141211395)
 * Constructor function! [video tutorial 6.4](https://vimeo.com/141211393)
 * Adding and deleting from an array, `push()` and `splice()` [video tutorial. 6.5](https://vimeo.com/141211392), [video tutorial 6.8](https://vimeo.com/141919523)
@@ -144,18 +159,14 @@ The goal for this course is to begin a journey in which the creative and technic
 * Checking objects intersecting with other objects [video tutorial 6.9](), [video tutorial 6.10](https://vimeo.com/141919521)
 * loading images for objects [video tutorial 6.11](https://vimeo.com/141919525)
 
-### 6 -- Synthesis -- **October 2nd, 11am - 2pm**
-- **Meet in the ITP Lounge**
-- **Bring your Arduino**
-- **[All details here](https://github.com/ITPNYU/ICM-2015/wiki/Synthesis)**
-- Serial input with a callback workshop
-- "One button experience" exercise
-
-### 7 -- [DOM: events and callback function](https://github.com/ITPNYU/ICM-2015/raw/master/07_dom/07_dom.zip)
-- [Download all examples](https://github.com/ITPNYU/ICM-2015/raw/master/07_dom/07_dom.zip)
+### 6.1 -- HTML and CSS
+(First week of October)
 - Review events -- mousePressed, keyPressed
-- [Tutorial: Beyond the Canvas, using p5.dom](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 - [Tutorial: Intro to HTML/CSS basics](https://github.com/processing/p5.js/wiki/Intro-to-HTML-and-CSS#css)
+
+
+### 6.2 -- DOM: events and callback function
+- [Tutorial: Beyond the Canvas, using p5.dom](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 - DOM elements - [p5.dom reference](http://p5js.org/reference/#/libraries/p5.dom)
     - `createP()`
     - `createButton()` 
@@ -166,28 +177,44 @@ The goal for this course is to begin a journey in which the creative and technic
 - [CSS Reference](http://www.blooberry.com/indexdot/css/propindex/all.htm)
 
 
-### 8 -- [Data](https://github.com/ITPNYU/ICM-2015/raw/master/08_data/08_data.zip)
-- [Download all examples](https://github.com/ITPNYU/ICM-2015/raw/master/08_data/08_data.zip)
+### 7.1 -- Data
 - [Tutorial: loading external data with p5.js](https://github.com/processing/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
+
+
+### 7.2 -- Data
 - [Tutorial: more about data and APIs](http://shiffman.github.io/A2Z-F15/week4/notes.html)
 - JSON and APIs (and more on callbacks!)
 - Word Counting
+
+### 8.1 -- Data
 - Tabular data
 - Optional Reading:
   - [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api), Jer Thorp 
   - [The Anxieties of Big Data](http://thenewinquiry.com/essays/the-anxieties-of-big-data/), Kate Crawford
 
-### 9 -- [Video and Sound](https://github.com/ITPNYU/ICM-2015/raw/master/09_video_sound/09_video_sound.zip)
-- [Download all examples](https://github.com/ITPNYU/ICM-2015/raw/master/09_video_sound/09_video_sound.zip)
+### 8.2 -- The big catch up
+- TBA
+
+### 9.1 -- Sound
 - [p5.sound reference](http://p5js.org/reference/#/libraries/p5.sound)
-- [Video/capture: p5.MediaElement reference](http://p5js.org/reference/#/p5.MediaElement)
 - Sound
 - Live capture
+
+### 9.2 -- What can we do with sound
+- Michael geeks out in his favorite land
+
+### 10.1 -- Video
+(Halloween)
+- [Video/capture: p5.MediaElement reference](http://p5js.org/reference/#/p5.MediaElement)
 - Movie playback
 - Video Assignment
 
-### 10 -- [Mobile](https://github.com/ITPNYU/ICM-2015/raw/master/10_mobile/10_mobile.zip)
-- [Download all examples](https://github.com/ITPNYU/ICM-2015/raw/master/10_mobile/10_mobile.zip)
+### 10.2 -- Video cont'd + Final Project Proposals
+(November)
+- Possible topics for Final Projects
+
+### 11 -- Mobile
+(Election Week, Michael may also need to be out of the state)
 - Workflow and process, get a previous sketch running on a device
 - Touch interaction
 - Sensors
@@ -195,18 +222,18 @@ The goal for this course is to begin a journey in which the creative and technic
 - [p5 mobile workflows by Jia](https://github.com/OhJia/p5Mobile/wiki/Workflows)
 - [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
 - [Hammer.js](http://hammerjs.github.io/)
-- Homework: Prepare a final project proposal.  See you section's wiki.
+- Homework: Prepare a final project proposal.
 
-### 11 -- Other Topics + Final Project Proposals
-- **See your individual section's proposal schedule on your wiki**
-- Possible topics
-   - more on pixels
-   - more on data
-   - setTimeout, setInterval
-   - WebGL - [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5)
-   
-### 12 -- Beyond p5.js + Final Project Proposals
-- **See your individual section's proposal schedule on your wiki**
+### 12 -- Final Project Proposals
+- Present and receive feedback on final project proposals.
+
+### 13.1 -- WebGL???
+- WebGL - [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5)
+
+### 13.2 -- Go Home
+
+
+### 14 -- Beyond p5.js
 - Life beyond p5.js
   - Take ICM into the spring semester courses 
   - Other JS libraries?
@@ -219,35 +246,21 @@ The goal for this course is to begin a journey in which the creative and technic
     - How do artists make and adapt tools for themselves and their communities, like Processing, p5.js, openFrameworks, etc? 
   - How do you  get involved with this?
 
-### 13 -- One on one speed user testing / feedback
+### 15 -- One on one speed user testing / feedback
+(December)
 - This week you will "user test" your project with fellow classmates. You must have some implementation that you can test completed by this time.  User testing can mean different things for different projects. For a game, it can mean that the user tries to play it. For an art piece, it could mean showing it to a classmate and asking for them to say what they think it is about or how it made them feel. We'll show projects in a "one on one" / round robin / speed dating-style session. 5 minutes then switch. You cannot not explain your project, just show and let the user try it and give you feedback. Then you can answer questions.  User testing schedule will be provided on a wiki.
 
-### 14 -- Final Project Presentations
-- Please add your link to your final project documentation on your section's wiki.
+### 16.1 -- 
+(The last day of class)
+
+### FINALS WEEK -- Final Project Presentations
+- Please add your link to your final project documentation on the wiki.
 
 
-# Policies
-
-##Evaluation
-
-Grades will be determined according to the following breakdown:
-* Regular Assignments 40%
-* Participation and Attendance 40%
-* Final Project 20%
-
-Please see ITP's statement on [Pass/Fail](http://help.itp.nyu.edu/academic-policies/pass-fail) which states that a "Pass" is equivalent to an "A" or a "B" while anything less would be considered a "Fail".
-
-We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments.
-
-Attendance is mandatory. Please inform your teacher via email if you are going to miss a class. Two unexcused absences is cause for failing the class. (An unexcused lateness of 10 minutes or more is equivalent to 1/2 an absence.)
-
-This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects. This (along with attendance) is 40% of your grade.
-
-Class will culminate with final projects. You are expected to push your abilities to produce something that utilizes what you have learned in the class that is useful in some manner to yourself or the world. This will comprise 20% of your grade.
 
 
-Mantras By James
-----------------
+
+## Mantras
 - "Practice is the best of all instructors." - computation requires practice 
 - "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too 
 - "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith 
@@ -256,9 +269,16 @@ Mantras By James
 - All of these are from Plubius Syrus.(42 B.C.) 
 
 
+# Policies
+##Evaluation
 
-## GRADING PROCEDURE
+We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments.
 
+Attendance is mandatory. Please inform your teacher via email if you are going to miss a class. Two unexcused absences is cause for failing the class. (An unexcused lateness of 10 minutes or more is equivalent to 1/2 an absence.)
+
+This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects. This (along with attendance) is 40% of your grade.
+
+Class will culminate with final projects. You are expected to push your abilities to produce something that utilizes what you have learned in the class that is useful in some manner to yourself or the world. This will comprise 20% of your grade.
 Grades will be based primarily on the student’s ability to:
 1. Demonstrate an understanding of the specific characteristics and integrative capabilities of the assigned topic in your own words and code.
 2. Articulate a clear and concise perspective. Cutting and pasting or copying word for word off the Internet will result in loss of points.
@@ -269,37 +289,31 @@ Grades will be based primarily on the student’s ability to:
 IMPORTANT: Assignments handed in after the due date and time will have points deducted for lateness. This will be in addition to any points deducted for content. Those that are uploaded late but within one week of the due date will lose 1 point for lateness.  For those uploaded after that, the number of deducted points will be at the discretion of the faculty. 
 
 
-There will be a total of 100 points based on the following formula:
+### Grade Break Down    
+Grades will be determined according to the following breakdown:
+* Regular Assignments 50%
+* Participation and Attendance 30%
+* Final Project 20%
 
-- Assignments (Code File, and Response) = 80%
-- Final Project = 20%  
-
-     
-A   95-100
-     
-A-  90-94
-     
-B+  86-89
-     
-B   83-85
-     
-B-  80-82
-    
-C+  76-79
-     
-C   73-75
-     
-C-  70-72
-     
-D   60-69
-     
-F   0-59
+Letter Break Downs
+- A   95-100
+- A-  90-94
+- B+  86-89
+- B   83-85
+- B-  80-82
+- C+  76-79
+- C   73-75
+- C-  70-72
+- D   60-69
+- F   0-59
 
 
 ## Academic Misconduct and the Student Conduct Code
 
 All students must practice academic honesty. Academic misconduct is subject to an academic penalty by the course instructor and/or disciplinary sanction by the University. All students need to be familiar with the Student Conduct Code. The Code is available online at http://www.umt.edu/vpsa/policies/student_conduct.php
 
+## Changes to the Course
+I reserve the right to change the intended content of this course throughout the semester. This may be done to adjust for the speed of the class, to better meet educational goals, or to account for changes in technology.
 
-## Attribution
+# Attribution
 This course is modeled off of NYU ITP's Intro to Computational Media Course. https://github.com/ITPNYU/ICM-2015.
