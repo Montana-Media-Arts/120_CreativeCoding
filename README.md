@@ -21,7 +21,7 @@ The goal for this course is to begin a journey in which the creative and technic
 
 
 ## Homework Wiki
-- [Homework](Wiki)
+- [Homework](https://github.com/michaelmusick/MART191_CreativeCoding/wiki)
 
 
 ## Videos
