@@ -76,7 +76,7 @@ The goal for this course is to begin a journey in which the creative and technic
   * Read the [GitHub "HelloWorld"](https://guides.github.com/activities/hello-world/)
   * Download a desktop client (optional)
   * Clone this repository `https://github.com/michaelmusick/MART191_CreativeCoding/`
-  * Create a github pages account `https://pages.github.com`
+  * Create a github pages account [`https://pages.github.com`](https://pages.github.com)
 
 ### 1.2 -- "Hello World" & Drawing
 * Getting started, your first program
