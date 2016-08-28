@@ -225,15 +225,15 @@ I may have an orientation session during this class period. Stay tuned for more 
 ### 12 -- Final Project Proposals
 - Present and receive feedback on final project proposals.
 
-### 13.1 -- WebGL???
-- WebGL - [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5)
+### 13.1 -- EXAM
+- **EXAM**
 
 ### 13.2 -- Go Home
 
 
 ### 14 -- Beyond p5.js
 - Life beyond p5.js
-  - Take ICM into the spring semester courses 
+  - Take Creative Coding into the spring semester courses 
   - Other JS libraries?
   - Coding outside the p5 IDE? ([local server tutorial](https://github.com/processing/p5.js/wiki/Local-server))
   - [local server tutorial](https://github.com/lmccart/itp-creative-js/wiki/SimpleHTTPServer)
@@ -290,7 +290,8 @@ IMPORTANT: Assignments handed in after the due date and time will have points de
 ### Grade Break Down    
 Grades will be determined according to the following breakdown:
 * Regular Assignments 50%
-* Participation and Attendance 30%
+* Participation and Attendance 20%
+* Exam 10%
 * Final Project 20%
 
 Letter Break Downs
