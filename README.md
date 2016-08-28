@@ -72,11 +72,7 @@ The goal for this course is to begin a journey in which the creative and technic
     * [SourceTree](https://www.sourcetreeapp.com) vs [GitHub Desktop](https://desktop.github.com) vs [`git`](https://try.github.io/levels/1/challenges/1)
   * Pulling from this GitHub Site `https://github.com/michaelmusick/MART191_CreativeCoding/`
 * **TODO**
-  * Sign up for GitHub.
-  * Read the [GitHub "HelloWorld"](https://guides.github.com/activities/hello-world/)
-  * Download a desktop client (optional)
-  * Clone this repository `https://github.com/michaelmusick/MART191_CreativeCoding/`
-  * Create a github pages account [`https://pages.github.com`](https://pages.github.com)
+  * [**Go to the HW Wiki**](https://github.com/michaelmusick/191_CreativeCoding/wiki/HW-Week-1.1)
 
 ### 1.2 -- "Hello World" & Drawing
 * Getting started, your first program
