@@ -3,9 +3,9 @@
 # SYLLABUS
 
 ### Professor Michael Musick
-- Email: 
-- Phone: N/A
-- Office Hours: 
+- Email: michael.musick@umontana.edu
+- Office: 232 - McGill Hall
+- Office Hours: Tuesdays, 10:30AM-Noon; Wednesdays, 2:30PM-4:00PM
 
 
 
@@ -15,8 +15,7 @@ The goal for this course is to begin a journey in which the creative and technic
 
 
 ## Listserv
-- [Sign up for the Creative Coding google group (MAKE THIS GROUP)](https://groups.google.com/)
-- Maybe this is UMT Moodle instead?
+- UMT Moodle
 
 ## p5.js
 - We will be using [p5.js](http://www.p5js.org/), a JavaScript framework.  Start by [downloading the p5.js editor](http://p5js.org/download/#editor).
