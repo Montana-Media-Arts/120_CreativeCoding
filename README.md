@@ -71,7 +71,7 @@ The goal for this course is to begin a journey in which the creative and technic
   * [p5.js working group mailing list](http://groups.google.com/forum/#!forum/p5xjs-working-group)
   * Setting up your own GitHub Blog to submit homework
     * [SourceTree](https://www.sourcetreeapp.com) vs [GitHub Desktop](https://desktop.github.com) vs [`git`](https://try.github.io/levels/1/challenges/1)
-  * Pulling from this GitHub Site `https://github.com/michaelmusick/MART191_CreativeCoding/`
+  * Pulling from this GitHub Site `https://github.com/michaelmusick/191_CreativeCoding/`
 * **TODO**
   * [**Go to the HW Wiki**](https://github.com/michaelmusick/191_CreativeCoding/wiki/HW-Week-1.1)
 
