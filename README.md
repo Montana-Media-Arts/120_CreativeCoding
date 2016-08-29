@@ -65,6 +65,7 @@ The goal for this course is to begin a journey in which the creative and technic
   * What is the difference between p5 and JavaScript?
 * Participating in an open-source community
   * What are git and github?
+    * Git is Awesome
   * When should you post to a forum vs. file a github issue?
   * Who makes these things?
   * [p5.js working group mailing list](http://groups.google.com/forum/#!forum/p5xjs-working-group)
