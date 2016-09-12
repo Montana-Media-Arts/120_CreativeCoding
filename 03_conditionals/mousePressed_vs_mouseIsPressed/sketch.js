@@ -2,18 +2,24 @@
 // the state of it gets checked every time draw is called
 // so the ellipse keeps growing as you hold down the mouse
 
-// var d = 10;
+var d = 10;
 
-// function setup() {
-//   createCanvas(600, 400);
-// }
+function setup() {
+  createCanvas(600, 400);
+}
 
-// function draw() {
-//   background(200);
-//   if (mouseIsPressed) {
-//     d++;
-//   }
-//   ellipse(width/2, height/2, d, d);
+function draw() {
+  background(200);
+  // if (mouseIsPressed) {
+  //   d++;
+  // }
+
+  ellipse(width/2, height/2, d, d);
+}
+
+// function mousePressed(){
+//   d++;
+//   return false;
 // }
 
 // compare to below!
@@ -23,19 +29,15 @@
 // again to keep increasing the size.
 
 
-var d = "hello";
-
-function setup() {
-  createCanvas(600, 400);
-}
-
-function draw() {
-  background(200);
-  text(d, 50, 50);
-  print("ab" > "ae");
-  print("ab" < "ae");
-}
-
-
-
-
+// var d = "hello";
+//
+// function setup() {
+//   createCanvas(600, 400);
+// }
+//
+// function draw() {
+//   background(200);
+//   text(d, 50, 50);
+//   print("ab" > "ae");
+//   print("ab" < "ae");
+// }
