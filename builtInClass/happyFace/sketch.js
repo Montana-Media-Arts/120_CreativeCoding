@@ -11,11 +11,11 @@ var happyFace = {
 			this.speedX= random(20);
 		}
 	},
-setupFace: function(){
-	this.posX= random(width);
-	this.posY= random(height);
+	setupFace: function(){
+		this.posX= random(width);
+		this.posY= random(height);
 
-},
+	},
 	drawing: function(){
 		translate(this.posX, this.posY);
 		ellipse(0,0,this.d,this.d);
