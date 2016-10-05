@@ -3,12 +3,32 @@ var happyFace = {
 	posX: 400,
 	posY: 200,
 	speedX: 1,
+	speedY: 1,
 	dirX: 1,
+	dirY: 1,
 	move: function(){
 		this.posX = this.posX + (this.speedX*this.dirX);
+		this.posY = this.posY + (this.speedY*this.dirY);
 		if (this.posX>=width || this.posX<= 0) {
 			this.dirX= -1*this.dirX;
 			this.speedX= random(20);
+			if (this.posX>=width) {
+				this.posX=width-1;
+			}
+			if (this.posX<=0){
+				this.posX=1;
+			}
+		}
+
+		if (this.posY>=height || this.posY<= 0) {
+			this.dirY= -1*this.dirY;
+			this.speedY= random(20);
+			if (this.posY>=height) {
+				this.posY=height-1;
+			}
+			if (this.posY<=0){
+				this.posY=1;
+			}
 		}
 	},
 	setupFace: function(){
