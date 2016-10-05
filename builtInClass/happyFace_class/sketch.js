@@ -1,25 +1,20 @@
 // define an object
-var happyFace = {
-	// set the object parameters
-	eyeColor: 'red',
-	faceColor: 'blue',
-
-	// set the object functions
-	bg: function() {
-		var c = color(this.faceColor);
-		background(c);
-	}
-
-};
+var happyArray = [];
 
 
 function setup() {
 	createCanvas(800,400);
+
+	for (var i = 0; i < 100; i++) {
+		happyArray.push(new HappyFace(random(256),random(256),random(256)));
+	}
 }
 
 function draw() {
 
-	// call the object and a function
-	happyFace.bg();
+	background(255,0,0);
+	for (var i = 0; i < happyArray.length; i++) {
+		happyArray[i].drawFace();
+	}
 
 }
