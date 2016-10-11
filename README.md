@@ -33,6 +33,7 @@ The goal for this course is to begin a journey in which the creative and technic
 ## Books (optional)
 - [Make: Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing](http://amzn.to/1PmztVt) is probably your best bet for now if you are looking for a book.
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
+- Learn the terminal, it is a powerful tool! [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
 
 ## Resources
 - [p5.js reference](http://p5js.org/reference)
