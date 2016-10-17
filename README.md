@@ -33,6 +33,7 @@ The goal for this course is to begin a journey in which the creative and technic
 ## Books (optional)
 - [Make: Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing](http://amzn.to/1PmztVt) is probably your best bet for now if you are looking for a book.
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
+- Learn the terminal, it is a powerful tool! [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
 
 ## Resources
 - [p5.js reference](http://p5js.org/reference)
@@ -160,13 +161,16 @@ I may have an orientation session during this class period. Stay tuned for more 
 * Checking objects intersecting with other objects [video tutorial 6.9](), [video tutorial 6.10](https://vimeo.com/141919521)
 * loading images for objects [video tutorial 6.11](https://vimeo.com/141919525)
 
-### 6.1 -- HTML and CSS
+### Weeks 6 and 7 
+Catch up on functions, objects, arrays, and program logic. 
+
+### 8.1 -- HTML and CSS
 (First week of October)
 - Review events -- mousePressed, keyPressed
 - [Tutorial: Intro to HTML/CSS basics](https://github.com/processing/p5.js/wiki/Intro-to-HTML-and-CSS#css)
 
 
-### 6.2 -- DOM: events and callback function
+### 8.2 -- DOM: events and callback function
 - [Tutorial: Beyond the Canvas, using p5.dom](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 - DOM elements - [p5.dom reference](http://p5js.org/reference/#/libraries/p5.dom)
     - `createP()`
@@ -178,44 +182,51 @@ I may have an orientation session during this class period. Stay tuned for more 
 - [CSS Reference](http://www.blooberry.com/indexdot/css/propindex/all.htm)
 
 
-### 7.1 -- Data
+### 9.1 -- Data
 - [Tutorial: loading external data with p5.js](https://github.com/processing/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
 
 
-### 7.2 -- Data
+### 9.2 -- Data
 - [Tutorial: more about data and APIs](http://shiffman.github.io/A2Z-F15/week4/notes.html)
 - JSON and APIs (and more on callbacks!)
 - Word Counting
 
-### 8.1 -- Data
+### 10.1 -- Data
 - Tabular data
 - Optional Reading:
   - [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api), Jer Thorp 
   - [The Anxieties of Big Data](http://thenewinquiry.com/essays/the-anxieties-of-big-data/), Kate Crawford
 
-### 8.2 -- The big catch up
-- TBA
-
-### 9.1 -- Sound
+### 10.1 -- Sound
 - [p5.sound reference](http://p5js.org/reference/#/libraries/p5.sound)
 - Sound
 - Live capture
 
-### 9.2 -- What can we do with sound
+### 10.2 -- What can we do with sound
 - Michael geeks out in his favorite land
 
-### 10.1 -- Video
-(Halloween)
+### 11.1 -- Video
 - [Video/capture: p5.MediaElement reference](http://p5js.org/reference/#/p5.MediaElement)
 - Movie playback
 - Video Assignment
 
-### 10.2 -- Video cont'd + Final Project Proposals
-(November)
-- Possible topics for Final Projects
+### 11.2 - NO CLASS 
+(Michael is out of town)
 
-### 11 -- Mobile
-(Election Week, Michael may also need to be out of the state)
+### 12.1 -- Final Project Proposals
+- Possible topics for Final Projects
+- Present and receive feedback on final project proposals.
+
+### 12.2 -- Video cont'd & Review for Exam
+- Continue work from previous week.
+
+
+### 13.1 -- EXAM
+- **EXAM**
+
+### 13.2 -- Go Home
+
+### 14.1 -- Mobile
 - Workflow and process, get a previous sketch running on a device
 - Touch interaction
 - Sensors
@@ -225,16 +236,7 @@ I may have an orientation session during this class period. Stay tuned for more 
 - [Hammer.js](http://hammerjs.github.io/)
 - Homework: Prepare a final project proposal.
 
-### 12 -- Final Project Proposals
-- Present and receive feedback on final project proposals.
-
-### 13.1 -- EXAM
-- **EXAM**
-
-### 13.2 -- Go Home
-
-
-### 14 -- Beyond p5.js
+### 14.2 -- Beyond p5.js
 - Life beyond p5.js
   - Take Creative Coding into the spring semester courses 
   - Other JS libraries?
@@ -251,10 +253,9 @@ I may have an orientation session during this class period. Stay tuned for more 
 (December)
 - This week you will "user test" your project with fellow classmates. You must have some implementation that you can test completed by this time.  User testing can mean different things for different projects. For a game, it can mean that the user tries to play it. For an art piece, it could mean showing it to a classmate and asking for them to say what they think it is about or how it made them feel. We'll show projects in a "one on one" / round robin / speed dating-style session. 5 minutes then switch. You cannot not explain your project, just show and let the user try it and give you feedback. Then you can answer questions.  User testing schedule will be provided on a wiki.
 
-### 16.1 -- 
-(The last day of class)
 
 ### FINALS WEEK -- Final Project Presentations
+Tuesday, December 20th from 8am-10am per the [University Finals Schedule](http://www.umt.edu/registrar/PDF/Autumn2016finalexamschedule2.pdf)
 - Please add your link to your final project documentation on the wiki.
 
 
@@ -271,7 +272,7 @@ I may have an orientation session during this class period. Stay tuned for more 
 
 
 # Policies
-##Evaluation
+## Evaluation
 
 We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments.
 
