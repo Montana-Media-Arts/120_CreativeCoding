@@ -14,9 +14,9 @@ function setup() {
   var link = createA("http://i.imgur.com/WXaUlrK.gif", "deal with it");
 
   // We can put the link element inside the paragraph one with parent()
-  link.parent(text);
+  // link.parent(text);
   // this is the equivalent with child()
-  // text.child(link);
+  text.child(link);
 }
 
 

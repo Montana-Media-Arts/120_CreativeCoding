@@ -46,7 +46,7 @@ The goal for this course is to begin a journey in which the creative and technic
 
 ## Weekly Breakdown
 
-### 1.1 -- Introduction 
+### 1.1 -- Introduction
 * What is computational media?
   * What is programming?
   * How can I apply programming to _____________?
@@ -90,7 +90,7 @@ The goal for this course is to begin a journey in which the creative and technic
 * <a id="optional-1">Optional viewing / reading:</a>
   * Casey Reas [Eyeo 2012 talk](https://vimeo.com/45851523) on Chance Operations
   * [Introductory p5.js videos](https://vimeo.com/channels/learningp5js/)
-  * [FORM+CODE: Introduction and What is Code?](http://formandcode.com) 
+  * [FORM+CODE: Introduction and What is Code?](http://formandcode.com)
   * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
   * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
@@ -120,7 +120,7 @@ The goal for this course is to begin a journey in which the creative and technic
     - else, else if, and, or [video tutorial](https://vimeo.com/channels/learningp5js/138935678)
     - buttons, rollovers, switches [video tutorial](https://vimeo.com/channels/learningp5js/138935677)
 
-### 3.2 -- Conditional Statements Cont'd 
+### 3.2 -- Conditional Statements Cont'd
 I may have an orientation session during this class period. Stay tuned for more info...
 - Loops (while and for)
     - while and for [video tutorial](https://vimeo.com/channels/learningp5js/139013336)
@@ -161,8 +161,8 @@ I may have an orientation session during this class period. Stay tuned for more 
 * Checking objects intersecting with other objects [video tutorial 6.9](), [video tutorial 6.10](https://vimeo.com/141919521)
 * loading images for objects [video tutorial 6.11](https://vimeo.com/141919525)
 
-### Weeks 6 and 7 
-Catch up on functions, objects, arrays, and program logic. 
+### Weeks 6 and 7
+Catch up on functions, objects, arrays, and program logic.
 
 ### 8.1 -- HTML and CSS
 (First week of October)
@@ -174,27 +174,28 @@ Catch up on functions, objects, arrays, and program logic.
 - [Tutorial: Beyond the Canvas, using p5.dom](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 - DOM elements - [p5.dom reference](http://p5js.org/reference/#/libraries/p5.dom)
     - `createP()`
-    - `createButton()` 
+    - `createButton()`
     - `createSlider()`
 - Callbacks
-    - `button.mousePressed(callback);` 
+    - `button.mousePressed(callback);`
 - `style()` -- low key intro to CSS
 - [CSS Reference](http://www.blooberry.com/indexdot/css/propindex/all.htm)
 
 
-### 9.1 -- Data
+### 9.1 -- Art in Class
+- Examples of creative Coding artwork.
+
+### 9.2 -- Data
 - [Tutorial: loading external data with p5.js](https://github.com/processing/p5.js/wiki/Loading-external-files:-AJAX,-XML,-JSON)
 
 
-### 9.2 -- Data
+### 10.1 -- Data
 - [Tutorial: more about data and APIs](http://shiffman.github.io/A2Z-F15/week4/notes.html)
 - JSON and APIs (and more on callbacks!)
 - Word Counting
-
-### 10.1 -- Data
 - Tabular data
 - Optional Reading:
-  - [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api), Jer Thorp 
+  - [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api), Jer Thorp
   - [The Anxieties of Big Data](http://thenewinquiry.com/essays/the-anxieties-of-big-data/), Kate Crawford
 
 ### 10.1 -- Sound
@@ -210,7 +211,7 @@ Catch up on functions, objects, arrays, and program logic.
 - Movie playback
 - Video Assignment
 
-### 11.2 - NO CLASS 
+### 11.2 - NO CLASS
 (Michael is out of town)
 
 ### 12.1 -- Final Project Proposals
@@ -238,7 +239,7 @@ Catch up on functions, objects, arrays, and program logic.
 
 ### 14.2 -- Beyond p5.js
 - Life beyond p5.js
-  - Take Creative Coding into the spring semester courses 
+  - Take Creative Coding into the spring semester courses
   - Other JS libraries?
   - Coding outside the p5 IDE? ([local server tutorial](https://github.com/processing/p5.js/wiki/Local-server))
   - [local server tutorial](https://github.com/lmccart/itp-creative-js/wiki/SimpleHTTPServer)
@@ -246,29 +247,30 @@ Catch up on functions, objects, arrays, and program logic.
   - What is server side programming for?
   - [Processing](http://processing.org)
   - Open source
-    - How do artists make and adapt tools for themselves and their communities, like Processing, p5.js, openFrameworks, etc? 
+    - How do artists make and adapt tools for themselves and their communities, like Processing, p5.js, openFrameworks, etc?
   - How do you  get involved with this?
 
 ### 15 -- One on one speed user testing / feedback
 (December)
 - This week you will "user test" your project with fellow classmates. You must have some implementation that you can test completed by this time.  User testing can mean different things for different projects. For a game, it can mean that the user tries to play it. For an art piece, it could mean showing it to a classmate and asking for them to say what they think it is about or how it made them feel. We'll show projects in a "one on one" / round robin / speed dating-style session. 5 minutes then switch. You cannot not explain your project, just show and let the user try it and give you feedback. Then you can answer questions.  User testing schedule will be provided on a wiki.
 
-
-### FINALS WEEK -- Final Project Presentations
-Tuesday, December 20th from 8am-10am per the [University Finals Schedule](http://www.umt.edu/registrar/PDF/Autumn2016finalexamschedule2.pdf)
+### Final Presentations - Monday, December 12th in Class
 - Please add your link to your final project documentation on the wiki.
+
+<!-- ### FINALS WEEK -- Final Project Presentations -->
+<!-- Tuesday, December 20th from 8am-10am per the [University Finals Schedule](http://www.umt.edu/registrar/PDF/Autumn2016finalexamschedule2.pdf) -->
 
 
 
 
 
 ## Mantras
-- "Practice is the best of all instructors." - computation requires practice 
-- "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too 
-- "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith 
-- "When two do the same thing, it is not the same thing after all." - encourage students with similar ideas 
-- "The bow too tensely strung is easily broken." - don't get too stressed out 
-- All of these are from Plubius Syrus.(42 B.C.) 
+- "Practice is the best of all instructors." - computation requires practice
+- "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too
+- "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith
+- "When two do the same thing, it is not the same thing after all." - encourage students with similar ideas
+- "The bow too tensely strung is easily broken." - don't get too stressed out
+- All of these are from Plubius Syrus.(42 B.C.)
 
 
 # Policies
@@ -288,10 +290,10 @@ Grades will be based primarily on the student’s ability to:
 4. Demonstrate creativity beyond the expected technical requirements.
 
 
-IMPORTANT: Assignments handed in after the due date and time will have points deducted for lateness. This will be in addition to any points deducted for content. Those that are uploaded late but within one week of the due date will lose 1 point for lateness.  For those uploaded after that, the number of deducted points will be at the discretion of the faculty. 
+IMPORTANT: Assignments handed in after the due date and time will have points deducted for lateness. This will be in addition to any points deducted for content. Those that are uploaded late but within one week of the due date will lose 1 point for lateness.  For those uploaded after that, the number of deducted points will be at the discretion of the faculty.
 
 
-### Grade Break Down    
+### Grade Break Down   
 Grades will be determined according to the following breakdown:
 * Regular Assignments 50%
 * Participation and Attendance 20%

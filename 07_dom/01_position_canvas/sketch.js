@@ -6,7 +6,7 @@ function setup() {
   // Here we can store a reference to the canvas DOM element
   var canvas = createCanvas(600, 400);
   // And do things like give it an absolute position on the page
-  canvas.position(50, 50);
+  canvas.position(200, 50);
 }
 
 // A simple animation

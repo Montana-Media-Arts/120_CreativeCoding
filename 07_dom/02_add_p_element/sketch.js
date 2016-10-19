@@ -11,7 +11,9 @@ function setup() {
   // By default these elements are appended to the <body>
   // Try reversing these two lines of code and see the difference
   var text = createP("This is a paragraph element.");
+  var text = createP("This is a paragraph element.");
   var canvas = createCanvas(300, 200);
+  var text = createP("This is a paragraph element.");
 
 }
 
