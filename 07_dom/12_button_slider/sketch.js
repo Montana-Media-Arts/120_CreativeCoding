@@ -17,10 +17,10 @@ var sliderVal;
 
 function setup() {
   createCanvas(640,360);
-  
+
   // Dom elements
   counter = createP("");
-  
+
   // A button
   button = createButton("Add a new ball.");
   // Attach the button to a function!
@@ -29,9 +29,9 @@ function setup() {
 
   // A slider
   // Min and max values and where to start
-  slider = createSlider(10,100,50);
+  slider = createSlider(10,100,60);
   // A dom element to show us the value
-  sliderVal = createDiv("");
+  sliderVal = createP("");
 
   // Initialize ball index 0
   balls.push(new Ball(50,0,24));
@@ -40,7 +40,7 @@ function setup() {
 
 function draw() {
   background(51);
-  
+
   // Update and display all balls
   for (var i = 0; i < balls.length; i ++ ) { // Whatever the length of that array, update and display all of the objects.
     balls[i].gravity();
@@ -56,6 +56,6 @@ function draw() {
 function newBall() {
   // A new ball object
   var b = new Ball(random(width),random(height),slider.value()); // Make a new object at the mouse location.
-  // Here, the function push() adds an element to the end of the array. 
+  // Here, the function push() adds an element to the end of the array.
   balls.push(b);
 }

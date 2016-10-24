@@ -18,14 +18,20 @@ var locked = false;
 function setup() {
   noCanvas();
 
+  // create a paragraph element
   y_info = createP();
 
-  words = createDiv("p5");
+  // create a div element with the string "p5"
+  words = createP("p5");
+
+  // define the style for the div element "p5"
   words.style('padding', '24px');
   words.style('background-color', '#F0C');
   words.style('font-family', 'monospace');
   words.style('font-size', "24pt");
   words.style('color', '#FFF');
+
+  // defining a function to be called when mousePressed or mouseReleased occurs in this element
   words.mousePressed(catchIt);
   words.mouseReleased(releaseIt);
 
@@ -57,13 +63,13 @@ function draw() {
     }
     if (y > windowHeight) {
       yspeed *= -1;
-      words.position(x,windowHeight-100);
+      words.position(x,windowHeight);
     }
 
     yspeed += gravity;
   }
 
-  words.position(x,y-100);
+  words.position(x,y);
 
 
   y_info.html('window height: ' + windowHeight + " <br/> y: " + y + " <br/> yspeed: " + yspeed);

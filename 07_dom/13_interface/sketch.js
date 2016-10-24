@@ -39,6 +39,7 @@ function clearDivs() {
   for (var i = 0; i < divs.length; i++) {
     divs[i].remove();
   }
+  divs = [];
 }
 
 // Make a new div
@@ -49,7 +50,7 @@ function makeDiv() {
   if (dropdown.selected() === 'date') {
     div = createDiv(input.value() + ', this div was made at ' + Date());
   } else {
-    div = createDiv(input.value() + ', here\'s a random number: ' + floor(random(100)));
+    div = createDiv(input.value() + ', here\'s the length of the array: ' + int(divs.length+1));
   }
   // User the slider for font size
   div.style('font-size', slider.value() + 'pt');
@@ -61,4 +62,3 @@ function makeDiv() {
 
   divs.push(div);
 }
-

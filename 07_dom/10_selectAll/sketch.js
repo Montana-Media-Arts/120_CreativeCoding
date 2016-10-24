@@ -20,4 +20,3 @@ function shuffleApples() {
     apples[i].position(random(windowWidth),random(windowHeight));
   }
 }
-
