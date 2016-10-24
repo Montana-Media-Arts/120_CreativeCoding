@@ -4,7 +4,7 @@
 1. What is "creative technology" or "creative coding"?
 
 
-2. Id Creative Technology or Creative Coding an 'art form'?
+2. Is Creative Technology or Creative Coding an 'art form'?
 
 
 3. What is a Media Artist? And, what is the difference, if any, between a media artist and creative technologist?
