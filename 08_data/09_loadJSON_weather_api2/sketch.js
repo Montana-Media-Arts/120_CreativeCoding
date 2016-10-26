@@ -3,8 +3,8 @@
 var bubbles = [];
 
 function setup() {
-  var url = 'http://api.openweathermap.org/data/2.5/weather?q=NewYork,USA&APPID=YOUR_API_KEY';
-	loadJSON(url, drawWeather); 
+  var url = 'http://api.openweathermap.org/data/2.5/weather?q=Missoula,USA&&APPID=YOUR_API_KEY';
+	loadJSON(url, drawWeather);
 
   createCanvas(600, 400);
   noLoop();

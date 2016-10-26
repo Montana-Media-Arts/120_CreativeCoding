@@ -26,6 +26,10 @@ function draw() {
   }
 }
 
+
+
+// --------------------------------------------------
+// Callback Function
 function createPeople(data) {
   // Go through the JSON array and make some objects
   for (var i = 0; i < data.length; i++) {
@@ -33,6 +37,10 @@ function createPeople(data) {
   }
 }
 
+
+
+// --------------------------------------------------
+// Define a new object
 // This is awkward but I'm copying all of the JSON
 // properties into an object of this type
 function Person(data) {

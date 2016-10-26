@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  console.log(data.keys());
+  console.log(data.person1.desire);
   background(120, 180, 200);
 
 

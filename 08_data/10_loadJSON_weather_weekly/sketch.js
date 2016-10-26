@@ -1,5 +1,5 @@
 
-var url = "http://api.openweathermap.org/data/2.5/forecast/daily?lat=35&lon=139&cnt=10&mode=json&APPID=YOUR_API_KEY";
+var url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=Missoula,USA&cnt=10&mode=json&APPID=YOUR_API_KEY";
 
 function setup() {
   createCanvas(windowWidth, windowHeight);

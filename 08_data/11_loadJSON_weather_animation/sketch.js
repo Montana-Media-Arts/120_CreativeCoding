@@ -40,4 +40,3 @@ function updateData() {
   loadJSON(url+city, handleData);
   x = 300;
 }
-
