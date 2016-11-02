@@ -9,13 +9,13 @@ var noise;
 function setup() {
   createCanvas(200, 200);
   noise = new p5.Noise();
-  noise.setType('white');
+  noise.setType('pink');
   noise.start();
 }
 
 function draw() {
   background(200);
-  
+
   var vol = map(mouseX, 0, width, 0, 1);
   noise.amp(vol);
   fill(175);

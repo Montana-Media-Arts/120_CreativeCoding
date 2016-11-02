@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
   background(200);
-  
+
   var freq = map(mouseX, 0, width, 150, 880);
   osc.freq(freq);
 

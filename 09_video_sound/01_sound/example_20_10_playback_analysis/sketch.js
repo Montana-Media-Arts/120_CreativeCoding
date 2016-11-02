@@ -10,14 +10,14 @@ var song;
 var amplitude;
 
 function preload() {
-  song = loadSound("sounds/beat.mp3");  
+  song = loadSound("sounds/beat.mp3");
 }
 
 
 function setup() {
   createCanvas(480, 270);
-  song.play();
   song.loop();
+  // song.play();
 
   // create a new Amplitude analyzer
   amplitude = new p5.Amplitude();

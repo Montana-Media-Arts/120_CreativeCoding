@@ -17,7 +17,7 @@ function Doorbell(x, y, r) {
     } else {
       return false;
     }
-  }
+};
 
   // Show the doorbell (hardcoded colors, could be improved)
   this.display = function(mx, my) {
@@ -29,6 +29,5 @@ function Doorbell(x, y, r) {
     stroke(0);
     strokeWeight(4);
     ellipse(this.x, this.y, this.r, this.r);
-  }
+};
 }
-
