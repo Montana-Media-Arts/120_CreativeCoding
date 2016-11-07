@@ -198,25 +198,22 @@ Catch up on functions, objects, arrays, and program logic.
   - [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api), Jer Thorp
   - [The Anxieties of Big Data](http://thenewinquiry.com/essays/the-anxieties-of-big-data/), Kate Crawford
 
-### 10.1 -- Sound
+### 11.1 -- Sound
 - [p5.sound reference](http://p5js.org/reference/#/libraries/p5.sound)
 - Sound
 - Live capture
 
-### 10.2 -- What can we do with sound
-- Michael geeks out in his favorite land
-
-### 11.1 -- Video
-- [Video/capture: p5.MediaElement reference](http://p5js.org/reference/#/p5.MediaElement)
-- Movie playback
-- Video Assignment
-
 ### 11.2 - NO CLASS
 (Michael is out of town)
 
-### 12.1 -- Final Project Proposals
+
+### 12.1 -- Final Project Proposals -- Video
 - Possible topics for Final Projects
 - Present and receive feedback on final project proposals.
+
+- [Video/capture: p5.MediaElement reference](http://p5js.org/reference/#/p5.MediaElement)
+- Movie playback
+- Video Assignment
 
 ### 12.2 -- Video cont'd & Review for Exam
 - Continue work from previous week.
@@ -227,6 +224,10 @@ Catch up on functions, objects, arrays, and program logic.
 
 ### 13.2 -- Go Home
 
+### 14.1 & 14.2 -- Video & Sound cont'd
+- Continue work from previous week.
+
+<!-- 
 ### 14.1 -- Mobile
 - Workflow and process, get a previous sketch running on a device
 - Touch interaction
@@ -249,6 +250,8 @@ Catch up on functions, objects, arrays, and program logic.
   - Open source
     - How do artists make and adapt tools for themselves and their communities, like Processing, p5.js, openFrameworks, etc?
   - How do you  get involved with this?
+-->
+
 
 ### 15 -- One on one speed user testing / feedback
 (December)
