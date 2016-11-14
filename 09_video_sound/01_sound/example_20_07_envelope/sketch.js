@@ -10,7 +10,7 @@ var envelope;
 
 var notes = [
   60, 62, 64, 65, 67, 69, 71, 72
-]; 
+];
 
 var note = 0;
 
@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  if (frameCount % 60 == 0) {
+  if (frameCount % 60 === 0) {
     osc.freq(translateMIDI(notes[note]));
     envelope.play(osc);
     note++;
