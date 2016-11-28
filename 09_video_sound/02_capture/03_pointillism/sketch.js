@@ -18,13 +18,13 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(width, height);
 
-  //video.hide();
+  // video.hide();
 
-  background(0);
+  background(255);
 }
 
 function draw() {
-  
+
   video.loadPixels();
 
   // Draw ten dots per frame
@@ -36,12 +36,12 @@ function draw() {
 
     // Grab a color from a pixel
     var col = video.get(x, y);
-    
-    // Back to shapes! Instead of setting a pixel, we use the color 
+
+    // Back to shapes! Instead of setting a pixel, we use the color
     // from a pixel to draw a circle.
     noStroke();
     fill(col[0], col[1], col[2], 127);
-    ellipse(x, y, slider.value(), slider.value()); 
-    
+    ellipse(x, y, slider.value(), slider.value());
+
   }
 }
