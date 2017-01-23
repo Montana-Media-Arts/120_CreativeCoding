@@ -146,6 +146,7 @@ Class will culminate with final projects. You are expected to push your abilitie
 
 ### Assessment
 Grades will be based primarily on the student’s ability to:
+
 1. Demonstrate an understanding of the specific characteristics and integrative capabilities of the assigned topic in your own words and code.
 2. Articulate a clear and concise perspective. Cutting and pasting or copying word for word off the Internet will result in loss of points.
 3. Present an organized file/program, as well as blog entry; including proper and punctual delivery of the assignment files.
