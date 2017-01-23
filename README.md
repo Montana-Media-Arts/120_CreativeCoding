@@ -8,11 +8,11 @@
 
 
 
-
-
 ## COURSE OVERVIEW
 The goal for this course is to begin a journey in which the creative and technical possibilities of the computer becomes an tool in your palate. The goal for this tool, or rather set of tools, is for them to become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based 'p5.js' programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
 
+### Syllabus and Additional Info
+For additional info about the class, as well as official policies, please see the [Syllabus](https://github.com/Montana-Media-Arts/191_CreativeCoding/tree/master/_syllabus)
 
 ### Class Discussion Forum
 [Course GitHub Repo Issues](https://github.com/Montana-Media-Arts/191_CreativeCoding/issues)
@@ -23,88 +23,11 @@ The goal for this course is to begin a journey in which the creative and technic
 - _OR_, click the "wiki tab" up above.
 
 # Resources
-The following are resources that you may use to help you with this semester and to complete assignments.
-
-### Books (optional)
-
-These books are not _mandatory_ however, they are useful resources if you feel like you may want a little more support in your new adventure with coding.
-- [Make: Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing](http://amzn.to/1PmztVt) is probably your best bet for now if you are looking for a book.
-- If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
-- Learn the terminal, it is a powerful tool! [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
-
-
-### Videos
-
-- [Kadenze course](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js/info)
-- [Shiffman Vimeo channel](https://vimeo.com/channels/learningp5js/) -- no ads
-- [Shiffman Youtube playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) -- has ads
-
-
-### Sites and Forums
-
-- [p5.js reference](http://p5js.org/reference)
-- [p5.js forum](http://forum.processing.org/two/)
-- [p5.js tutorials](http://p5js.org/tutorials/)
-- [Getting Started with p5.js](http://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772) - O'Reilly book
-- [Intro to Visual Programming with p5.js](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js) - online video tutorials (free with signup)
-
-
-# Mantras
-- "Practice is the best of all instructors." - computation requires practice
-- "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too
-- "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith
-- "When two do the same thing, it is not the same thing after all." - encourage students with similar ideas
-- "The bow too tensely strung is easily broken." - don't get too stressed out
-- All of these are from Plubius Syrus.(42 B.C.)
-
-
-# Attribution
-This course is modeled off of NYU ITP's Intro to Computational Media Course. https://github.com/ITPNYU/ICM-2015.
-
-This course was first taught in this format by Michael Musick in the Fall of 2016.
-
-
-
-# Main Topics in the Course
-
-## 1: Introduction and Related Technologies
-
-- What is computational media?
-- Programming language discussion
-- Open Source Communities
-- Command Line
-- Text Documents
-- Text Editors
-- Git Version Control
-- GitHub
-- markdown (`.md`)
-- GitHub Pages
-
-## 2: “Hello World” & The Basics
-
-- p5.js
-- “Hello World”
-- Remembering of Math
-- Variables
-- Random-ness
-- Conditionals
-- Structure
-- Functions
-- Data types
-- Arrays
-- Objects
-
-## 3: Advanced Topics
-
-- Data
-- Sound
-- Video
-- Mobile
-
+Please the the wiki [resources page](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/Resources) that you may use to help you with this semester and to complete assignments.
 
 
 # Weekly Breakdown
-Check here for what we have done, or are going to be doing. 
+Check here for what we have done, or are going to be doing.
 
 ### 1.1 — Introduction
 - Overview of the syllabus.
