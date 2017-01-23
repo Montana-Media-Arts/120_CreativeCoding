@@ -7,7 +7,7 @@
 - Office Hours: Wed, 12:30PM - 2:00PM (please e-mail to confirm)
 
 
-
+<!-- TOC -->
 
 
 ## COURSE OVERVIEW
@@ -104,7 +104,7 @@ This course was first taught in this format by Michael Musick in the Fall of 201
 
 
 # Weekly Breakdown
-Check here for what we have done, or are going to be doing. 
+Check here for what we have done, or are going to be doing.
 
 ### 1.1 — Introduction
 - Overview of the syllabus.
