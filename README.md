@@ -11,19 +11,10 @@
 ## COURSE OVERVIEW
 The goal for this course is to begin a journey in which the creative and technical possibilities of the computer becomes an tool in your palate. The goal for this tool, or rather set of tools, is for them to become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based 'p5.js' programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
 
-### Syllabus and Additional Info
-For additional info about the class, as well as official policies, please see the [Syllabus](https://github.com/Montana-Media-Arts/191_CreativeCoding/tree/master/_syllabus)
-
-### Class Discussion Forum
-[Course GitHub Repo Issues](https://github.com/Montana-Media-Arts/191_CreativeCoding/issues)
-
-### Homework Wiki
-
-- [Homework](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki)
-- _OR_, click the "wiki tab" up above.
-
-# Resources
-Please the the wiki [resources page](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/Resources) that you may use to help you with this semester and to complete assignments.
+- For additional info about the class, as well as official policies, please see the [Syllabus](https://github.com/Montana-Media-Arts/191_CreativeCoding/tree/master/_syllabus)
+- [Class Discussion Forum via GitHub Repo Issues](https://github.com/Montana-Media-Arts/191_CreativeCoding/issues)
+- [Homework Wiki](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki) (_OR_, click the "wiki tab" up above.)
+- [Coding & P5.js Resources to help with your semester](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/Resources) 
 
 
 # Weekly Breakdown
