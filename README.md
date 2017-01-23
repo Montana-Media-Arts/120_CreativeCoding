@@ -1,11 +1,11 @@
-# MART 191 - Creative Coding  |  Fall 2016
-
-# SYLLABUS
+# MART 191 - Creative Coding  |  Spring 2017
 
 ### Professor Michael Musick
-- Email: michael.musick@umontana.edu
-- Office: 232 - McGill Hall
-- Office Hours: Tuesdays, 10:30AM-Noon; Wednesdays, 2:30PM-4:00PM
+
+- E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
+- Office: McGill Hall, 224.
+- Office Hours: Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+
 
 
 
@@ -14,87 +14,166 @@
 The goal for this course is to begin a journey in which the creative and technical possibilities of the computer becomes an tool in your palate. The goal for this tool, or rather set of tools, is for them to become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based 'p5.js' programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
 
 
-## Listserv
-- UMT Moodle
+### Class Discussion Forum
+[Course GitHub Repo Issues](https://github.com/Montana-Media-Arts/191_CreativeCoding/issues)
 
-## p5.js
-- We will be using [p5.js](http://www.p5js.org/), a JavaScript framework.  Start by [downloading the p5.js editor](http://p5js.org/download/#editor).
+### Homework Wiki
 
+- [Homework](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki)
+- _OR_, click the "wiki tab" up above.
 
-## Homework Wiki
-- [Homework](https://github.com/michaelmusick/MART191_CreativeCoding/wiki)
+# Resources
+The following are resources that you may use to help you with this semester and to complete assignments.
 
+### Books (optional)
 
-## Videos
-- [Kadenze course](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js/info)
-- [Shiffman Vimeo channel](https://vimeo.com/channels/learningp5js/) -- no ads
-- [Shiffman Youtube playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) -- has ads
-
-## Books (optional)
+These books are not _mandatory_ however, they are useful resources if you feel like you may want a little more support in your new adventure with coding.
 - [Make: Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing](http://amzn.to/1PmztVt) is probably your best bet for now if you are looking for a book.
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 - Learn the terminal, it is a powerful tool! [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
 
-## Resources
+
+### Videos
+
+- [Kadenze course](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js/info)
+- [Shiffman Vimeo channel](https://vimeo.com/channels/learningp5js/) -- no ads
+- [Shiffman Youtube playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) -- has ads
+
+
+### Sites and Forums
+
 - [p5.js reference](http://p5js.org/reference)
-* [p5.js forum](http://forum.processing.org/two/)
-* [p5.js tutorials](http://p5js.org/tutorials/)
-* [Getting Started with p5.js](http://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772) - O'Reilly book
-* [Intro to Visual Programming with p5.js](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js) - online video tutorials (free with signup)
+- [p5.js forum](http://forum.processing.org/two/)
+- [p5.js tutorials](http://p5js.org/tutorials/)
+- [Getting Started with p5.js](http://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772) - O'Reilly book
+- [Intro to Visual Programming with p5.js](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js) - online video tutorials (free with signup)
+
+
+# Mantras
+- "Practice is the best of all instructors." - computation requires practice
+- "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too
+- "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith
+- "When two do the same thing, it is not the same thing after all." - encourage students with similar ideas
+- "The bow too tensely strung is easily broken." - don't get too stressed out
+- All of these are from Plubius Syrus.(42 B.C.)
+
+
+# Attribution
+This course is modeled off of NYU ITP's Intro to Computational Media Course. https://github.com/ITPNYU/ICM-2015.
+
+This course was first taught in this format by Michael Musick in the Fall of 2016.
 
 
 
-## Weekly Breakdown
+# Main Topics in the Course
 
-### 1.1 -- Introduction
-* What is computational media?
-  * What is programming?
-  * How can I apply programming to _____________?
-  * As a ____________, why would I want or need to write software?
-  * [Example projects](https://github.com/ITPNYU/ICM-2015/wiki/Projects).
-* Programming language discussion
-  * General discussion of programming languages
-  * History of creative coding frameworks
-      * Processing and p5.js (and what's processing.js?): [What is p5.js video](https://vimeo.com/channels/learningp5js/137979313)
-      * openframeworks, cinder
-      * max/msp dataflow programming
-      * How does arduino fit in?
-* p5.js in the context of the browser
-  * Landscape of HTML, CSS, and JavaScript
-  * Other JS frameworks
-  * Server-side vs. client-side
-  * What is the difference between p5 and JavaScript?
-* Participating in an open-source community
-  * What are git and github?
-    * Git is Awesome
-  * When should you post to a forum vs. file a github issue?
-  * Who makes these things?
-  * [p5.js working group mailing list](http://groups.google.com/forum/#!forum/p5xjs-working-group)
-  * Setting up your own GitHub Blog to submit homework
-    * [SourceTree](https://www.sourcetreeapp.com) vs [GitHub Desktop](https://desktop.github.com) vs [`git`](https://try.github.io/levels/1/challenges/1)
-  * Pulling from this GitHub Site `https://github.com/michaelmusick/191_CreativeCoding/`
-* **TODO**
-  * [**Go to the HW Wiki**](https://github.com/michaelmusick/191_CreativeCoding/wiki/HW-Week-1.1)
+## 1: Introduction and Related Technologies
 
-### 1.2 -- "Hello World" & Drawing
-* Getting started, your first program
-  * Download Examples
-  * Drawing with numbers: [video tutorial](https://vimeo.com/channels/learningp5js/137979314)
-  * Shape and color functions: [video tutorial](https://vimeo.com/channels/learningp5js/137979312)
-  * `setup()` and `draw()`
-  * Downloading p5.js
-   * Start by [downloading the p5.js editor](http://p5js.org/download/#editor).
-  * [p5.js reference](http://p5js.org/reference)
-* [Uploading your sketch !!! ADD SOMETHING](https://github.com/ITPNYU/ICM-2015/wiki/SFTP-Tutorial)
-* Adding your response as a markdown file
-* <a id="optional-1">Optional viewing / reading:</a>
-  * Casey Reas [Eyeo 2012 talk](https://vimeo.com/45851523) on Chance Operations
-  * [Introductory p5.js videos](https://vimeo.com/channels/learningp5js/)
-  * [FORM+CODE: Introduction and What is Code?](http://formandcode.com)
-  * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
+- What is computational media?
+- Programming language discussion
+- Open Source Communities
+- Command Line
+- Text Documents
+- Text Editors
+- Git Version Control
+- GitHub
+- markdown (`.md`)
+- GitHub Pages
+
+## 2: “Hello World” & The Basics
+
+- p5.js
+- “Hello World”
+- Remembering of Math
+- Variables
+- Random-ness
+- Conditionals
+- Structure
+- Functions
+- Data types
+- Arrays
+- Objects
+
+## 3: Advanced Topics
+
+- Data
+- Sound
+- Video
+- Mobile
+
+
+
+# Weekly Breakdown
+Check here for what we have done, or are going to be doing. 
+
+### 1.1 — Introduction
+- Overview of the syllabus.
+- What is computational media?
+  - What is programming?
+  - How can I apply programming to \_\_\_\_\_\_\_\_\_\_\_\_\_?
+  - As a \_\_\_\_\_\_\_\_\_\_\_\_, why would I want or need to write software?
+  - [Example projects](https://github.com/ITPNYU/ICM-2015/wiki/Projects).
+- Programming language discussion
+  - General discussion of programming languages
+  - History of creative coding frameworks
+	  - Processing and p5.js (and what's processing.js?): [What is p5.js video](https://vimeo.com/channels/learningp5js/137979313)
+	  - openframeworks, cinder
+	  - max/msp dataflow programming
+	  - How does arduino fit in?
+- p5.js in the context of the browser
+  - Landscape of HTML, CSS, and JavaScript
+  - Other JS frameworks
+  - Server-side vs. client-side
+  - What is the difference between p5 and JavaScript?
+- macOS & Windows
+	- Terminal vs PowerShell
+	- Differences in Git
+	- Why it does not matter.
+- Your computer as **YOUR** development environment.
+	- Command Line
+	- Directory Structure
+	- Not fearing the command line
+- **TODO: ** Look at and complete [HW-1](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/HW-1-(Due-01-24)) in the homework wiki.
+
+
+
+### 1.2 — Necessary Technologies
+
+- Text Documents
+- Text Editors
+- Git Version Control
+- GitHub
+- markdown (`.md`)
+- Participating in an open-source community
+  - What are git and github?
+	- Git is Awesome
+  - When should you post to a forum vs. file a github issue?
+  - Who makes these things?
+  - Setting up your own GitHub Blog to submit homework
+	- [SourceTree](https://www.sourcetreeapp.com) vs [GitHub Desktop](https://desktop.github.com) vs [`git`](https://try.github.io/levels/1/challenges/1)
+  - Pulling from this GitHub Site `https://github.com/Montana-Media-Arts/191_CreativeCoding/`
+- **TODO**
+  - [\**Go to the HW Wiki*-](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/HW-Week-1.1)
+
+<!--
+### 2.1 -- "Hello World" & Drawing
+- Getting started, your first program
+  - Download Examples
+  - Drawing with numbers: [video tutorial](https://vimeo.com/channels/learningp5js/137979314)
+  - Shape and color functions: [video tutorial](https://vimeo.com/channels/learningp5js/137979312)
+  - `setup()` and `draw()`
+  - Downloading p5.js
+   - Start by [downloading the p5.js editor](http://p5js.org/download/#editor).
+  - [p5.js reference](http://p5js.org/reference)
+- [Uploading your sketch !!! ADD SOMETHING](https://github.com/ITPNYU/ICM-2015/wiki/SFTP-Tutorial)
+- Adding your response as a markdown file
+- <a id="optional-1">Optional viewing / reading:</a>
+  - Casey Reas [Eyeo 2012 talk](https://vimeo.com/45851523) on Chance Operations
+  - [Introductory p5.js videos](https://vimeo.com/channels/learningp5js/)
+  - [FORM+CODE: Introduction and What is Code?](http://formandcode.com)
+  - [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
   * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-### 2.1 -- Labor Day
 
 ### 2.2 -- The Basics; function() and variables. Animation.
 - Program flow (what's a function?)
@@ -112,19 +191,19 @@ The goal for this course is to begin a journey in which the creative and technic
 
 ### 3.1 -- Conditional Statements
 - Conditional Statements
-    - Boolean expressions
-    - if statement
-    - relational operators
-    - [video tutorial](https://vimeo.com/channels/learningp5js/138935676)
-    - Case study, bouncing ball: [video tutorial](https://vimeo.com/channels/learningp5js/138935675)
-    - else, else if, and, or [video tutorial](https://vimeo.com/channels/learningp5js/138935678)
-    - buttons, rollovers, switches [video tutorial](https://vimeo.com/channels/learningp5js/138935677)
+	- Boolean expressions
+	- if statement
+	- relational operators
+	- [video tutorial](https://vimeo.com/channels/learningp5js/138935676)
+	- Case study, bouncing ball: [video tutorial](https://vimeo.com/channels/learningp5js/138935675)
+	- else, else if, and, or [video tutorial](https://vimeo.com/channels/learningp5js/138935678)
+	- buttons, rollovers, switches [video tutorial](https://vimeo.com/channels/learningp5js/138935677)
 
 ### 3.2 -- Conditional Statements Cont'd
 I may have an orientation session during this class period. Stay tuned for more info...
 - Loops (while and for)
-    - while and for [video tutorial](https://vimeo.com/channels/learningp5js/139013336)
-    - nested loops [video tutorial](https://vimeo.com/channels/learningp5js/139013372)
+	- while and for [video tutorial](https://vimeo.com/channels/learningp5js/139013336)
+	- nested loops [video tutorial](https://vimeo.com/channels/learningp5js/139013372)
 
 ### 4.1 -- Functions: the basics
 - Calling vs. defining
@@ -173,11 +252,11 @@ Catch up on functions, objects, arrays, and program logic.
 ### 8.2 -- DOM: events and callback function
 - [Tutorial: Beyond the Canvas, using p5.dom](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 - DOM elements - [p5.dom reference](http://p5js.org/reference/#/libraries/p5.dom)
-    - `createP()`
-    - `createButton()`
-    - `createSlider()`
+	- `createP()`
+	- `createButton()`
+	- `createSlider()`
 - Callbacks
-    - `button.mousePressed(callback);`
+	- `button.mousePressed(callback);`
 - `style()` -- low key intro to CSS
 - [CSS Reference](http://www.blooberry.com/indexdot/css/propindex/all.htm)
 
@@ -203,8 +282,7 @@ Catch up on functions, objects, arrays, and program logic.
 - Sound
 - Live capture
 
-### 11.2 - NO CLASS
-(Michael is out of town)
+### 11.2 -
 
 
 ### 12.1 -- Final Project Proposals -- Video
@@ -227,7 +305,9 @@ Catch up on functions, objects, arrays, and program logic.
 ### 14.1 & 14.2 -- Video & Sound cont'd
 - Continue work from previous week.
 
-<!-- 
+-->
+
+<!--
 ### 14.1 -- Mobile
 - Workflow and process, get a previous sketch running on a device
 - Touch interaction
@@ -252,6 +332,7 @@ Catch up on functions, objects, arrays, and program logic.
   - How do you  get involved with this?
 -->
 
+<!--
 
 ### 15 -- One on one speed user testing / feedback
 (December)
@@ -259,69 +340,7 @@ Catch up on functions, objects, arrays, and program logic.
 
 ### Final Presentations - Monday, December 12th in Class
 - Please add your link to your final project documentation on the wiki.
+-->
 
 <!-- ### FINALS WEEK -- Final Project Presentations -->
 <!-- Tuesday, December 20th from 8am-10am per the [University Finals Schedule](http://www.umt.edu/registrar/PDF/Autumn2016finalexamschedule2.pdf) -->
-
-
-
-
-
-## Mantras
-- "Practice is the best of all instructors." - computation requires practice
-- "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too
-- "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith
-- "When two do the same thing, it is not the same thing after all." - encourage students with similar ideas
-- "The bow too tensely strung is easily broken." - don't get too stressed out
-- All of these are from Plubius Syrus.(42 B.C.)
-
-
-# Policies
-## Evaluation
-
-We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments.
-
-Attendance is mandatory. Please inform your teacher via email if you are going to miss a class. Two unexcused absences is cause for failing the class. (An unexcused lateness of 10 minutes or more is equivalent to 1/2 an absence.)
-
-This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects. This (along with attendance) is 40% of your grade.
-
-Class will culminate with final projects. You are expected to push your abilities to produce something that utilizes what you have learned in the class that is useful in some manner to yourself or the world. This will comprise 20% of your grade.
-Grades will be based primarily on the student’s ability to:
-1. Demonstrate an understanding of the specific characteristics and integrative capabilities of the assigned topic in your own words and code.
-2. Articulate a clear and concise perspective. Cutting and pasting or copying word for word off the Internet will result in loss of points.
-3. Present an organized file/program, as well as blog entry; including proper and punctual delivery of the assignment files.
-4. Demonstrate creativity beyond the expected technical requirements.
-
-
-IMPORTANT: Assignments handed in after the due date and time will have points deducted for lateness. This will be in addition to any points deducted for content. Those that are uploaded late but within one week of the due date will lose 1 point for lateness.  For those uploaded after that, the number of deducted points will be at the discretion of the faculty.
-
-
-### Grade Break Down   
-Grades will be determined according to the following breakdown:
-* Regular Assignments 50%
-* Participation and Attendance 20%
-* Exam 10%
-* Final Project 20%
-
-Letter Break Downs
-- A   95-100
-- A-  90-94
-- B+  86-89
-- B   83-85
-- B-  80-82
-- C+  76-79
-- C   73-75
-- C-  70-72
-- D   60-69
-- F   0-59
-
-
-## Academic Misconduct and the Student Conduct Code
-
-All students must practice academic honesty. Academic misconduct is subject to an academic penalty by the course instructor and/or disciplinary sanction by the University. All students need to be familiar with the Student Conduct Code. The Code is available online at http://www.umt.edu/vpsa/policies/student_conduct.php
-
-## Changes to the Course
-I reserve the right to change the intended content of this course throughout the semester. This may be done to adjust for the speed of the class, to better meet educational goals, or to account for changes in technology.
-
-# Attribution
-This course is modeled off of NYU ITP's Intro to Computational Media Course. https://github.com/ITPNYU/ICM-2015.
