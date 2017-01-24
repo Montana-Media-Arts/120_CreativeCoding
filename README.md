@@ -4,7 +4,9 @@
 
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
 - Office: McGill Hall, 224.
-- Office Hours: Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+- Office Hours:
+    - Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+    - Thu, 12:30PM - 2:00PM (please e-mail to confirm)
 
 
 
@@ -14,7 +16,7 @@ The goal for this course is to begin a journey in which the creative and technic
 - For additional info about the class, as well as official policies, please see the [Syllabus](https://github.com/Montana-Media-Arts/191_CreativeCoding/tree/master/_syllabus)
 - [Class Discussion Forum via GitHub Repo Issues](https://github.com/Montana-Media-Arts/191_CreativeCoding/issues)
 - [Homework Wiki](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki) (_OR_, click the "wiki tab" up above.)
-- [Coding & P5.js Resources to help with your semester](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/Resources) 
+- [Coding & P5.js Resources to help with your semester](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/Resources)
 
 
 # Weekly Breakdown

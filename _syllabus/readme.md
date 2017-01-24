@@ -8,7 +8,9 @@
 
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
 - Office: McGill Hall, 224.
-- Office Hours: Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+- Office Hours:
+    - Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+    - Thu, 12:30PM - 2:00PM (please e-mail to confirm)
 
 
 
@@ -31,17 +33,17 @@ The goal for this course is to begin a journey in which the creative and technic
 # Technology, tools, and required software
 
 ### p5.js
-We will be using [p5.js](http://www.p5js.org/), a JavaScript framework. As our primary development language. 
+We will be using [p5.js](http://www.p5js.org/), a JavaScript framework. As our primary development language.
 
 ### GitHub & GitHub Pages
-You will store and upload all of your class work/assignment to GitHub.com, a git repository manager. This will allow for the easy submission of both code and live examples of your finished assignments via the Internet. 
+You will store and upload all of your class work/assignment to GitHub.com, a git repository manager. This will allow for the easy submission of both code and live examples of your finished assignments via the Internet.
 
-GitHub has a built in feature known as [github pages](https://pages.github.com). This is how you will host live versions of your p5.js-based assignments. 
+GitHub has a built in feature known as [github pages](https://pages.github.com). This is how you will host live versions of your p5.js-based assignments.
 
 You may also want to consider using a GUI-based git manager application. Some of these include SourceTree and GitHub’s Desktop app.
 
 ### Text Editor
-You will likely want a separate text editor which you can use to work on p5 assignments as well as write your technical reports in the markdown language. I would suggest Atom. 
+You will likely want a separate text editor which you can use to work on p5 assignments as well as write your technical reports in the markdown language. I would suggest Atom.
 
 ### Command Line
 You should work to gain some comfort in the command line this semester as we will use it from time to time.
@@ -50,7 +52,7 @@ You should work to gain some comfort in the command line this semester as we wil
 You will need to have multiple browsers installed on your development machine. I would suggest at least Chrome & Firefox, as well as Safari if you are on macOS.
 
 # Resources
-The following are resources that you may use to help you with this semester and to complete assignments. 
+The following are resources that you may use to help you with this semester and to complete assignments.
 
 ### Books (optional)
 
@@ -83,7 +85,7 @@ These books are not _mandatory_ however, they are useful resources if you feel l
 
 - What is computational media?
 - Programming language discussion
-- Open Source Communities 
+- Open Source Communities
 - Command Line
 - Text Documents
 - Text Editors
@@ -94,7 +96,7 @@ These books are not _mandatory_ however, they are useful resources if you feel l
 
 ## 2: “Hello World” & The Basics
 
-- p5.js 
+- p5.js
 - “Hello World”
 - Remembering of Math
 - Variables
@@ -104,7 +106,7 @@ These books are not _mandatory_ however, they are useful resources if you feel l
 - Functions
 - Data types
 - Arrays
-- Objects 
+- Objects
 
 ## 3: Advanced Topics
 
