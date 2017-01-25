@@ -58,6 +58,12 @@ Check here for what we have done, or are going to be doing.
 - Text Documents
 - Text Editors
 - Git Version Control
+- **TODO:** 
+	- if you haven't already done so, please complete the homework from the first class. [HW-1](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/HW-1-(Due-01-24)) in the homework wiki.
+	- Please watch the GitHub links from this weeks [course document.](https://github.com/Montana-Media-Arts/191_CreativeCoding/blob/master/inClass/01-2/settingUp.md)
+
+
+### 2.1 - Necessary Technologies (con't)
 - GitHub
 - markdown (`.md`)
 - Participating in an open-source community
