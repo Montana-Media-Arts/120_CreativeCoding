@@ -58,27 +58,31 @@ Check here for what we have done, or are going to be doing.
 - Text Documents
 - Text Editors
 - Git Version Control
-- **TODO:** 
+- **TODO:**
 	- if you haven't already done so, please complete the homework from the first class. [HW-1](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/HW-1-(Due-01-24)) in the homework wiki.
 	- Please watch the GitHub links from this weeks [course document.](https://github.com/Montana-Media-Arts/191_CreativeCoding/blob/master/inClass/01-2/settingUp.md)
 
 
 ### 2.1 - Necessary Technologies (con't)
-- GitHub
+- More with Git and GitHub
+    - Git via terminal
+    - Git via a text editor
+    - Git via Sourcetree
+
+### 2.2 - Necessary Technologies (con't)
+- Finish up Git / GitHub.com
 - markdown (`.md`)
-- Participating in an open-source community
-  - What are git and github?
-	- Git is Awesome
-  - When should you post to a forum vs. file a github issue?
-  - Who makes these things?
-  - Setting up your own GitHub Blog to submit homework
+- Setting up your own GitHub Repo to submit homework
 	- [SourceTree](https://www.sourcetreeapp.com) vs [GitHub Desktop](https://desktop.github.com) vs [`git`](https://try.github.io/levels/1/challenges/1)
   - Pulling from this GitHub Site `https://github.com/Montana-Media-Arts/191_CreativeCoding/`
 - **TODO**
-  - [\**Go to the HW Wiki*-](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/HW-Week-1.1)
+  - [\**Go to the HW Wiki*-](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/)
 
 <!--
 ### 2.1 -- "Hello World" & Drawing
+- Discussion Participating in an open-source community
+- When should you post to a forum vs. file a github issue?
+- Who makes these things?
 - Getting started, your first program
   - Download Examples
   - Drawing with numbers: [video tutorial](https://vimeo.com/channels/learningp5js/137979314)
