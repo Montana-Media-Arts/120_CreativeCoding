@@ -78,8 +78,8 @@ Check here for what we have done, or are going to be doing.
 - **TODO**
   - [\**Go to the HW Wiki*-](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/)
 
-<!--
-### 2.1 -- "Hello World" & Drawing
+
+### 3.1 & 3.2 -- "Hello World" & Drawing
 - Discussion Participating in an open-source community
 - When should you post to a forum vs. file a github issue?
 - Who makes these things?
@@ -101,7 +101,7 @@ Check here for what we have done, or are going to be doing.
   * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
 
-### 2.2 -- The Basics; function() and variables. Animation.
+### 4 -- The Basics; function() and variables. Animation.
 - Program flow (what's a function?)
   - Setup, draw, and other events
   - Variation: mouseX and mouseY
@@ -112,9 +112,8 @@ Check here for what we have done, or are going to be doing.
   - JS objects (variables inside variables), [video tutorial](https://vimeo.com/channels/learningp5js/138327558)
 - [random()](http://p5js.org/reference/#/p5/random), [video tutorial](https://vimeo.com/channels/learningp5js/138327559)
 - [map()](http://p5js.org/reference/#/p5/map), [video tutorial](https://vimeo.com/channels/learningp5js/138331801)
-- Simple loading and displaying image
 
-
+<!--
 ### 3.1 -- Conditional Statements
 - Conditional Statements
 	- Boolean expressions
@@ -130,6 +129,7 @@ I may have an orientation session during this class period. Stay tuned for more 
 - Loops (while and for)
 	- while and for [video tutorial](https://vimeo.com/channels/learningp5js/139013336)
 	- nested loops [video tutorial](https://vimeo.com/channels/learningp5js/139013372)
+- Simple loading and displaying image
 
 ### 4.1 -- Functions: the basics
 - Calling vs. defining
