@@ -1,8 +1,5 @@
 # Class 5.1 (Wednesday, no Monday class for Presidents day)
 
-More with Variables
-
-- Objects
 
 
 More with Math
@@ -18,3 +15,8 @@ More with Math
 
  - map()
  - random()
+
+
+ More with Variables
+
+ - Objects
