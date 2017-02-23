@@ -14,24 +14,37 @@ function windowResized() {
   background(bgColor);
 }
 
+function mousePressed() {
+  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+    var fs = fullscreen();
+    fullscreen(!fs);
+  }
+}
 
 // DEFINE GLOBAL VARIABLES
 var centerX, centerY;
 var pos1x = 100, pos1y = 100;
 var pos2x = 200, pos2y = 200;
 var pos3x = 0, pos3y = 0;
-var multMax = 4;
+var multMax = 0.01;
+var multDelta;
 var mult;
 var redFill = 255;
+var alphaAmt = 40;
+var alphaNoise;
 
 function draw() {
+
   centerX = width * 0.5;
   centerY = height * 0.5;
 
+  multDelta = noise(0.01 * frameCount + pow(2, 8));
+  multDelta = map(multDelta, 0, 1, -0.0001, 0.0001 );
+  multMax = constrain(multMax + multDelta, 0.001, 0.2);
   mult = random(-multMax, multMax);
-  pos3x = abs(((width * 0.15 * mult) + centerX) % width);
+  pos3x = abs(((width * mult) + pos2x) % width);
   mult = random(-multMax, multMax);
-  pos3y = abs(((height * 0.15 * mult) + centerY) % height);
+  pos3y = abs(((height * mult) + pos2y) % height);
 
 
   mult = noise(frameCount * 0.001) * 255;
@@ -39,8 +52,13 @@ function draw() {
   // redFill = constrain((redFill + mult), 0, 255);
   redFill = constrain(mult, 0, 255);
 
-  // noStroke();
-  stroke(200, 20);
+  noStroke();
+  // stroke(200, 20);
+  // get a random noise value between (0-1)
+  alphaNoise = noise(0.1 * frameCount + 1000);
+  alphaNoise = map(alphaNoise, 0, 1, -2, 2);
+  alphaAmt += alphaNoise;
+  alphaAmt = constrain(alphaAmt, 20, 100);
   fill(redFill,255-redFill,175, 30);
 
   triangle(pos1x,pos1y,pos2x,pos2y,pos3x,pos3y);
