@@ -70,11 +70,11 @@ function draw() {
 
   //////// DEBUGGING STUFF /////////////
   // ellipse(centerX, centerY, 40, 40);
-  push();
-  translate(10, height - 40);
-  fill(255);
-  rect(0,0,150,25);
-  fill(0);
-  text(frameRate(), 5, 20);
-  pop();
+  // push();
+  // translate(10, height - 40);
+  // fill(255);
+  // rect(0,0,150,25);
+  // fill(0);
+  // text(frameRate(), 5, 20);
+  // pop();
 }
