@@ -6,7 +6,7 @@ function setup() {
   bgColor = color(50,100,200);
   createCanvas(windowWidth,windowHeight);
   background(bgColor);
-  // frameRate(12);
+  // frameRate(20);
 }
 
 function windowResized() {
@@ -68,5 +68,13 @@ function draw() {
   pos2x = pos3x;
   pos2y = pos3y;
 
+  //////// DEBUGGING STUFF /////////////
   // ellipse(centerX, centerY, 40, 40);
+  push();
+  translate(10, height - 40);
+  fill(255);
+  rect(0,0,150,25);
+  fill(0);
+  text(frameRate(), 5, 20);
+  pop();
 }
