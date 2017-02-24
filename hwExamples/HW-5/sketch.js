@@ -1,27 +1,6 @@
 
 // DEFINE GLOBAL VARIABLES
 var bgColor;  // background-color
-
-function setup() {
-  bgColor = color(50,100,200);
-  createCanvas(windowWidth,windowHeight);
-  background(bgColor);
-  // frameRate(20);
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  background(bgColor);
-}
-
-function mousePressed() {
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-    var fs = fullscreen();
-    fullscreen(!fs);
-  }
-}
-
-// DEFINE GLOBAL VARIABLES
 var centerX, centerY;
 var pos1x = 100, pos1y = 100;
 var pos2x = 200, pos2y = 200;
@@ -32,6 +11,21 @@ var mult;
 var redFill = 255;
 var alphaAmt = 40;
 var alphaNoise;
+
+
+function setup() {
+  bgColor = color(50,100,200);
+  createCanvas(windowWidth,windowHeight);
+  background(bgColor);
+  // frameRate(20);
+
+  // Set initial position
+  pos1x = random(width);
+  pos1y = random(height);
+  pos2x = pos1x + 2;
+  pos2y = pos1y - 2;
+}
+
 
 function draw() {
 
@@ -77,4 +71,19 @@ function draw() {
   // fill(0);
   // text(frameRate(), 5, 20);
   // pop();
+}
+
+
+
+/* FULLSCREEN FUNCTIONALITY */
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  background(bgColor);
+}
+
+function mousePressed() {
+  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+    var fs = fullscreen();
+    fullscreen(!fs);
+  }
 }
