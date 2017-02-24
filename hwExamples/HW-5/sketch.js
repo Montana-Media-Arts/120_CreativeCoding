@@ -40,7 +40,7 @@ function draw() {
 
   multDelta = noise(0.01 * frameCount + pow(2, 8));
   multDelta = map(multDelta, 0, 1, -0.0001, 0.0001 );
-  multMax = constrain(multMax + multDelta, 0.001, 0.2);
+  multMax = constrain(multMax + multDelta, 0.005, 0.2);
   mult = random(-multMax, multMax);
   pos3x = abs(((width * mult) + pos2x) % width);
   mult = random(-multMax, multMax);
