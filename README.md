@@ -18,6 +18,12 @@ The goal for this course is to begin a journey in which the creative and technic
 - [Homework Wiki](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki) (_OR_, click the "wiki tab" up above.)
 - [Coding & P5.js Resources to help with your semester](https://github.com/Montana-Media-Arts/191_CreativeCoding/wiki/Resources)
 
+# Final Presentations
+
+Final Presentations will occur during our University scheduled final time. 
+
+Monday, May 8th from 10:10AM - 12:10PM.
+
 
 # Weekly Breakdown
 Check here for what we have done, or are going to be doing.
