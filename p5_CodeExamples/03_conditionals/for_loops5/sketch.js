@@ -1,7 +1,7 @@
 // FORM+CODE
 // Casey Reas and Chandler McWilliams
 
-var option = 1;
+var option = 5;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noFill();
@@ -19,7 +19,7 @@ function draw() {
         line(x+5, y-5, x-5, y+5);
       }
     }
-  } 
+  }
   else if (option == 2) {
     // Option 2: Perspective
     for (var x = 50; x <= width-50; x += density) {
@@ -27,7 +27,7 @@ function draw() {
         line(x, y, width/2, height/2);
       }
     }
-  } 
+  }
   else if (option == 3) {
     // Option 3: Overlapping circles
     for (var x = 50; x <= width-50; x += density) {
@@ -35,7 +35,7 @@ function draw() {
         ellipse(x, y, 40, 40);
       }
     }
-  } 
+  }
   else if (option == 4) {
     // Option 4: Rotating arcs
     var count = 120;
@@ -46,7 +46,7 @@ function draw() {
         count--;
       }
     }
-  } 
+  }
   else if (option == 5) {
     // Option 5: Groups of five
     for (var x = 50; x < width-50; x += density) {
