@@ -20,7 +20,7 @@ The goal for this course is to begin a journey in which the creative and technic
 
 # Final Presentations
 
-Final Presentations will occur during our University scheduled final time. 
+Final Presentations will occur during our University scheduled final time.
 
 Monday, May 8th from 10:10AM - 12:10PM.
 
@@ -114,12 +114,47 @@ Check here for what we have done, or are going to be doing.
   - [video tutorial](https://vimeo.com/channels/learningp5js/138327548)
 - Variables
   - make your own variables (numbers and strings), [video tutorial](https://vimeo.com/channels/learningp5js/138331676)
-- More about Variables
-  - JS objects (variables inside variables), [video tutorial](https://vimeo.com/channels/learningp5js/138327558)
-- [random()](http://p5js.org/reference/#/p5/random), [video tutorial](https://vimeo.com/channels/learningp5js/138327559)
 - [map()](http://p5js.org/reference/#/p5/map), [video tutorial](https://vimeo.com/channels/learningp5js/138331801)
 
+
+### 5 -- Random, Objects, and Reviewing Math
+
+- JS objects (variables inside variables), [video tutorial](https://vimeo.com/channels/learningp5js/138327558)
+- [random()](http://p5js.org/reference/#/p5/random), [video tutorial](https://vimeo.com/channels/learningp5js/138327559)
+- Math
+    - Add/Subtract
+    - Multiply/Divide
+    - Square/Square Root
+    - Modulo
+
+
+### 6 -- Conditional Statements
+- Conditional Statements
+	- Boolean expressions
+	- if statement
+	- relational operators
+	- [video tutorial](https://vimeo.com/channels/learningp5js/138935676)
+	- Case study, bouncing ball: [video tutorial](https://vimeo.com/channels/learningp5js/138935675)
+	- else, else if, and, or [video tutorial](https://vimeo.com/channels/learningp5js/138935678)
+	- buttons, rollovers, switches [video tutorial](https://vimeo.com/channels/learningp5js/138935677)
+- Loops (while and for)
+	- while and for [video tutorial](https://vimeo.com/channels/learningp5js/139013336)
+	- nested loops [video tutorial](https://vimeo.com/channels/learningp5js/139013372)
+
+
+
+### 7 -- Functions: the basics
+- Calling vs. defining
+- Modularity: [video](https://vimeo.com/channels/learningp5js/139587733)
+- Arguments and parameters
+- Re-usability: [video](https://vimeo.com/channels/learningp5js/139587732)
+- Return types: [video](https://vimeo.com/channels/learningp5js/139587730)
+- Recursion
+- Functions inside objects: [video](https://vimeo.com/channels/learningp5js/139587731)
+
+
 <!--
+
 ### 3.1 -- Conditional Statements
 - Conditional Statements
 	- Boolean expressions
@@ -137,6 +172,8 @@ I may have an orientation session during this class period. Stay tuned for more 
 	- nested loops [video tutorial](https://vimeo.com/channels/learningp5js/139013372)
 - Simple loading and displaying image
 
+
+
 ### 4.1 -- Functions: the basics
 - Calling vs. defining
 - Modularity: [video](https://vimeo.com/channels/learningp5js/139587733)
@@ -151,6 +188,7 @@ I may have an orientation session during this class period. Stay tuned for more 
 - Optional Readings:
   - [Work of Art in the Age of Mechanical Reproduction](http://www.berk-edu.com/VisualStudies/readingList/06b_benjamin-work%20of%20art%20in%20the%20age%20of%20mechanical%20reproduction.pdf), Walter Benjamin
 - Homework: TBA (but something like use a function to draw a design different ways, multiple times.  Make a previous sketch modular.)
+
 
 ### 5.1 -- Objects and Arrays
 * Review object literals:
