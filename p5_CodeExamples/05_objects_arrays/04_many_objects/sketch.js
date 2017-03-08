@@ -23,7 +23,7 @@ function setup() {
       }
     };
     // Put the object in the array (0-49)
-    particleList[i] = particle;
+    particleList.push( particle );
   }
 }
 
