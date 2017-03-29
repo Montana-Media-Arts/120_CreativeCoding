@@ -99,8 +99,8 @@ Happyface.prototype.checkCollisions = function (objArr, myIdx) {
                 if(canCreateNewHappyFace){
                     createNewHappyFace();
                     canCreateNewHappyFace = false;
-                    killHappyFace(myIdx);
                 }
+                killHappyFace(myIdx);
             }
         }
     }
