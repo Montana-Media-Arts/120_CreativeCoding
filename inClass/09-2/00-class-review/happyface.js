@@ -22,7 +22,7 @@ function Happyface(init_x, init_y, size, color){
         color: '#000'
     }
     this.delta = {
-        x: map(this.size, 40, 150, 10, 0.5),
+        x: map(this.size, 40, 150, 10, 0.5) * map(round(random(1, 2)), 1, 2, -1, 1),
         y: 0,
         gravity: 0.1
     }
