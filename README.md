@@ -143,7 +143,7 @@ Check here for what we have done, or are going to be doing.
 
 
 
-### 7 -- Functions: the basics
+### 7.1 -- Functions: the basics
 - Calling vs. defining
 - Modularity: [video](https://vimeo.com/channels/learningp5js/139587733)
 - Arguments and parameters
@@ -152,6 +152,48 @@ Check here for what we have done, or are going to be doing.
 - Recursion
 - Functions inside objects: [video](https://vimeo.com/channels/learningp5js/139587731)
 
+### 7.2 -- Functions: the hard stuff
+- Re-usability: [video](https://vimeo.com/channels/learningp5js/139587732)
+- Return types: [video](https://vimeo.com/channels/learningp5js/139587730)
+- Recursion
+- Functions inside objects: [video](https://vimeo.com/channels/learningp5js/139587731)
+
+### 8 -- More With Functions, Objects, and Arrays
+
+- Review object literals:
+  - properties - name/value pairs
+  - functions inside objects
+  - `this` keyword
+- What is an array? [video tutorial 6.1](https://vimeo.com/141211396)
+  - declaring, intializing
+  - numeric indices
+  - arrays and for loops: [video tutorial 6.2](https://vimeo.com/141211394)
+  - `length` property
+
+
+### 9 -- Objects and Lots o' Objects
+- An array of objects! [video tutorial 6.3](https://vimeo.com/141211395)
+- Constructor function! [video tutorial 6.4](https://vimeo.com/141211393)
+- Adding and deleting from an array, `push()` and `splice()` [video tutorial. 6.5](https://vimeo.com/141211392), [video tutorial 6.8](https://vimeo.com/141919523)
+- Multiple JS files [video tutorial 6.6](https://vimeo.com/141919522)
+
+### 10 More with Objects and Object Interactions
+- Clicking on objects [video tutorial 6.7](https://vimeo.com/141919520)
+- Checking objects intersecting with other objects [video tutorial 6.9](), [video tutorial 6.10](https://vimeo.com/141919521)
+
+### 11 -- Images, A Server, and WEBGL
+- loading images for objects [video tutorial 6.11](https://vimeo.com/141919525)
+- [Using a Local Server](https://github.com/processing/p5.js/wiki/Local-server)
+
+### 12 -- Sound and Video in p5.js
+
+### 13 -- EXAM WEEK
+- Exam will be on Wednesday, April 26th
+
+### 14 -- Final Project Work, and the Future
+
+### 15 -- FINALS WEEK
+- Presentation of final projects on Monday, May 8th.
 
 <!--
 
