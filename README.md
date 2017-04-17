@@ -24,6 +24,10 @@ Final Presentations will occur during our University scheduled final time.
 
 Monday, May 8th from 10:10AM - 12:10PM.
 
+For examples of what was done during Fall 2016, visit;
+
+- [Final Project Ideas](https://michaelmusick.github.io/creative-coding-examples/)
+
 
 # Weekly Breakdown
 Check here for what we have done, or are going to be doing.

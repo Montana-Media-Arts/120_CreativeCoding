@@ -9,7 +9,7 @@ var noise;
 function setup() {
   createCanvas(200, 200);
   noise = new p5.Noise();
-  noise.setType('pink');
+  noise.setType('white');
   noise.start();
 }
 

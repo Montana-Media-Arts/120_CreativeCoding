@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 20-3: Manipulating sound 
+// Example 20-3: Manipulating sound
 
 // A sound file object
 var song;
@@ -11,7 +11,7 @@ var speedSlider;
 var volumeSlider;
 
 function preload() {
-  song = loadSound("sounds/beat.mp3");  
+  song = loadSound("sounds/beat.mp3");
 }
 
 function setup() {
@@ -31,6 +31,6 @@ function setup() {
 function draw() {
   background(200);
 
-  song.amp(volumeSlider.value());
+  song.setVolume(volumeSlider.value(), 2);
   song.rate(speedSlider.value());
 }

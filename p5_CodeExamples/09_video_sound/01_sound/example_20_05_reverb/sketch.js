@@ -9,22 +9,24 @@ var song;
 var reverb;
 
 function preload() {
-  song = loadSound("sounds/beat.mp3");  
+  song = loadSound("sounds/doorbell.mp3");
 }
 
 function setup() {
   noCanvas();
   createP('Listen to the reverb!');
 
+  // song.disconnect();
 
   reverb = new p5.Reverb();
   // Connect soundFile to reverb, process w/
   // 3 second reverbTime, decayRate of 2%
-  reverb.process(song, 3, 2);
+  reverb.process(song, 6, 2, true);
+
+
 
   // Loop the sound forever
   // (well, at least until stop() is called)
   song.loop();
 
 }
-
