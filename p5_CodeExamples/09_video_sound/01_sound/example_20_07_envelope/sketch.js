@@ -18,7 +18,8 @@ function setup() {
   noCanvas();
   osc = new p5.Oscillator();
   osc.setType('sine');
-  envelope = new p5.Env(0.01, 0.5, 1, 0.5);
+  envelope = new p5.Env();
+  envelope.setADSR(0.1,0.1,0.9,0.5);
   osc.amp(envelope);
   osc.start();
 }

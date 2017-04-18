@@ -8,7 +8,7 @@
 var song;
 
 function preload() {
-  song = loadSound("sounds/beat.mp3");  
+  song = loadSound("sounds/beat.mp3");
 }
 
 function setup() {
@@ -17,7 +17,8 @@ function setup() {
   fill(255);
   textAlign(CENTER);
   text("click to play/pause", width/2, height/2);
-  song.play();
+  // song.play();
+  song.loop(0, 2, 0.2, 1, 1.5 );
   noLoop();
 }
 
