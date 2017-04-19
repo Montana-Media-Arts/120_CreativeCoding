@@ -37,6 +37,7 @@ function draw() {
             //   set the pixel RGBa value
             set(draw_position_x, y, [r, g, b, a]);
         }
+        // filter(INVERT);
         updatePixels();
 
         // loop back around

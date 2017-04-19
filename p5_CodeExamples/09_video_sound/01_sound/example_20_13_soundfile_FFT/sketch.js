@@ -10,19 +10,19 @@ var song;
 var fft;
 
 function preload() {
-  song = loadSound("sounds/beat.mp3");  
+  song = loadSound("sounds/beat.mp3");
 }
 
 function setup() {
-  createCanvas(512, 360);
+  createCanvas(windowWidth, 360);
 
   // Loop the sound forever
   // (well, at least until stop() is called)
-  song.play();
+  // song.play();
   song.loop();
 
   // Create the FFT analyzer
-  fft = new p5.FFT();
+  fft = new p5.FFT(0.8, 2**6);
 }
 
 function draw() {
@@ -30,10 +30,12 @@ function draw() {
 
   var spectrum = fft.analyze();
 
+  var binW = width / spectrum.length;
+
   for (var i = 0; i < spectrum.length; i++) {
     stroke(0);
     // The FFT range is between 0 and 1, we map it to pixels
     var y = map(spectrum[i], 0, 255, height, 0);
-    line(i, height, i, y);
+    line(i*binW, height, i*binW, y);
   }
 }

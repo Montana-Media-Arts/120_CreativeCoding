@@ -20,6 +20,7 @@ function draw() {
 
   // Get the overall volume (between 0 and 1.0)
   var vol = input.getLevel();
+  console.log(vol);
   fill(127);
   stroke(0);
 

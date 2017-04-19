@@ -13,6 +13,7 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(320, 240);
   video.parent('video');
+  // video.hide();
 
   // Make a button
   var button = createButton('snap');
@@ -25,4 +26,3 @@ function setup() {
 function snap() {
   image(video, 0, 0, width, height);
 }
-

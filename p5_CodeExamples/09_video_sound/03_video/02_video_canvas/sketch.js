@@ -15,8 +15,8 @@ function draw() {
   background(150);
   // Draw the video
   image(fingers,10,10); // draw the video frame to canvas
+  filter('INVERT');
 
   // Apply a filter and draw again
-  filter('GRAY');
   image(fingers,150,150); // draw a second copy to canvas
 }
