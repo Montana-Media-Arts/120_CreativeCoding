@@ -3,7 +3,7 @@
 ### Professor Michael Musick
 
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
-- Office: McGill Hall, 224.
+- Office: McGill Hall, 232.
 - Office Hours:
     - Wed, 12:30PM - 2:00PM (please e-mail to confirm)
     - Thu, 12:30PM - 2:00PM (please e-mail to confirm)
