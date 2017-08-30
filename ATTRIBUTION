@@ -1,5 +1,33 @@
-This course is modeled off of NYU ITP's Intro to Computational Media Course. https://github.com/ITPNYU/ICM-2015.
+# References and Attributions
 
-This course was first taught in this format by Michael Musick in the Fall of 2016.
 
-It started being revamped for online presentation in summer 2017.
+
+## History
+
+This course was first taught by Michael Musick at the University of Montana in the Fall of 2016.
+
+The online version was first presented during the Fall of 2017.
+
+
+
+## Content
+
+This course is modeled from and includes adapted content from [NYU ITP's Introduction to Computational Media](https://github.com/ITPNYU/ICM-2015).
+
+Many code examples are also copied or derived from examples available from;
+
+- [Getting Started with p5.js](https://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772/)
+- [Getting Started with p5.js code](https://github.com/lmccart/gswp5.js-code)
+- [Learning Processing code ported to p5.js](https://github.com/shiffman/LearningProcessing-p5.js)
+- [Video lesson accompanying code](https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js)
+
+Additional material has been linked from or adapted from;
+
+- [scotch.io](https:scotch.io)
+- Wikipedia Articles for general information
+
+
+
+## Website Template
+
+The course website has been adapted and built from [P2PU.org's](http://howto.p2pu.org), [course-in-a-box](https://github.com/p2pu/course-in-a-box/) and their [Jekyll Course template](http://github.com/p2pu/jekyll-course-template).
