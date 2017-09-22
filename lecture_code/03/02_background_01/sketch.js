@@ -1,0 +1,3 @@
+function setup() {
+    background('blue');
+}
