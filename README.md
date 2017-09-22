@@ -1,4 +1,4 @@
-# Creative Coding 1 - MART 120<br />Course Resource Repo
+# Course Resource Repo <br>Creative Coding 1 - MART 120
 
 This is the resources repository and homework wiki for the web-based version of Creative Coding 1 at the School of Media Arts, University of Montana.
 
@@ -26,7 +26,9 @@ Utilizing [p5.js](https://p5js.org), this course teaches concepts from computer 
 - [_Creative Coding 1_ Website](https://montana-media-arts.github.io/creative-coding-1/)
 
 
-### Designed by
+
+## Designer and Instructor Info
+
 - Professor Michael Musick
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
 - Office: McGill Hall, 224.
