@@ -4,6 +4,6 @@ function setup() {
 }
 
 function draw() {
-    // a rectangle with various corner angles
-    rect( 20, 20, 300, 300, 0, 90, 45, 130 );
+    // a rectangle with various corner roundness
+    rect( 20, 20, 300, 300, 0, 90, 45, 150 );
 }
