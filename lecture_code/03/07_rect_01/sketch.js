@@ -1,8 +1,8 @@
 function setup() {
-    createCanvas( 500, 600 );
+    createCanvas( 600, 400 );
     background( '#e3f9c8' );
 }
 
 function draw() {
-    rect( 50, 60, 450, 540);
+    rect( 25, 30, 450, 540);
 }
