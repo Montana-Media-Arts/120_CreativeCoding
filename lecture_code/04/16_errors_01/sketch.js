@@ -1,9 +1,9 @@
 function setup() {
     // the following function will "throw" an error
-    // This is becuase there is no function called
+    // This is because there is no function called
     // -> createcanvas()
     //
-    // It is technically mispelled
+    // It is technically misspelled
     // And needs the 'C' starting the word "canvas"
     // to be capitalized.
     createcanvas( 400, 400 );
