@@ -1,19 +1,18 @@
 function setup() {
-    createCanvas(500,120);
+    createCanvas(500,350);
 }
 
 function draw() {
 
-    strokeWeight(1);
-    line(20, 20, 480, 20);
+    noFill();
 
-    strokeWeight(4);
-    line(20, 40, 480, 40);
+    stroke('red');
+    rect( 20, 20, 300, 100 );
 
-    strokeWeight(10);
-    line(20, 70, 480, 70);
+    stroke('green');
+    triangle( 20, 330, 250, 20, 480, 330 );
 
-    strokeWeight(20);  
-    line(20, 100, 480, 70);
-
+    stroke('pink');
+    fill('yellow');
+    ellipse( 250, 250, 280, 130 );
 }
