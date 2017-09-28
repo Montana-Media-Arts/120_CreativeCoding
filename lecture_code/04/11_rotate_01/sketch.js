@@ -3,7 +3,7 @@ function setup(){
 }
 
 function draw() {
-    background(255);
+    background('rgb(255, 161, 142)');
 
     // move center grid point (x:0, y:0)
     // to the center of the canvas
