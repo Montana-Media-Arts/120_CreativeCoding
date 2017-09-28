@@ -4,5 +4,5 @@ function setup() {
 }
 
 function draw() {
-    arc( 300, 200, 300, 300, 0, HALF_PI );
+    arc( 300, 200, 300, 300, QUARTER_PI, HALF_PI );
 }
