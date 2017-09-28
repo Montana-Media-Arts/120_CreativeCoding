@@ -9,7 +9,7 @@ function draw() {
     background(255);
 
     // no rotate
-    // translate to (x:200, y:75)
+    // translate to (x:250, y:75)
     // smiley centered at (x:75, y:75)
     translate( 250, 75 );
     // ** draw the smily face **
