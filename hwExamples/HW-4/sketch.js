@@ -3,9 +3,11 @@ function setup() {
     createCanvas(500, 500);
     background(255, 247, 240);
 
+    // move everything to the center of the canvas
+    translate(250, 250);
+
     // Main body
     push();
-    translate(250, 250);
     rectMode(CENTER);
     fill(200, 10, 20);
     rect(0, 0, 200, 300);
@@ -20,7 +22,8 @@ function setup() {
 
     // Legs
     push();
-    translate(250, 400);
+    // translate to the leg position
+    translate( 0, 150 );
     fill(90, 50, 245);
     triangle(10, 0, 100, 0, 210, 190);
     triangle(-10, 0, -100, 0, -210, 190);
@@ -28,7 +31,8 @@ function setup() {
 
     // Arms
     push();
-    translate(250, 200);
+    // translate to the arm position
+    translate(0, -50);
     strokeWeight(20);
     line(80, 0, 140, 0);
     line(140, 0, 210, -50);
@@ -40,9 +44,14 @@ function setup() {
     ellipse(-190, 150, 20, 20);
     pop();
 
-    push();
+
+
     // Head
-    translate(250, 100);
+
+    // skull
+    push();
+    // translate to the head position
+    translate(0, -150);
     fill(200, 10, 200);
     ellipse(0, 0, 400, 125);
 
@@ -61,19 +70,26 @@ function setup() {
     fill(2, 240, 250);
     arc(0, 30, 200, 60, 0, PI, CHORD);
 
+    // mustache
+    fill( 113, 81, 57 );
+    quad(0,5,-5,40,-120,40,-90,20);
+    quad(0,5,5,40,120,40,90,20);
+
     // nose
     fill(200, 90, 170);
-    triangle(-10, -40, -10, 15, 70, 80);
+    triangle(-10, -40, -10, 5, 70, 80);
 
     // end of head
     pop();
 
     // Naming
     push();
+    // move the text up
+    translate( 0, -250 );
     textAlign(CENTER);
     textSize(20);
     textFont("Georgia");
-    text("A Self-Portrait, by Michael Musick", 250, 27);
+    text("A Self-Portrait, by Michael Musick", 0, 27);
     pop();
 
 }
