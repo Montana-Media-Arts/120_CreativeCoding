@@ -20,10 +20,11 @@ function draw() {
     ellipse( -20, -15, 20 );
     ellipse( 20, -15, 20 );
 
-    // scale the x-axis by 200%
-    // scale the y-axis by 75%
-    translate( 0, 125 );
-    scale(0.25, 3.0);
+    // scale the x-axis by 250%
+    // scale the y-axis by 150%
+    // and flip around the y-axis
+    translate( 0, 175 );
+    scale(2.5, -1.5);
     // ** draw the smily face **
     stroke( 0 );
     fill('rgba(234, 255, 61, 1.0)');
