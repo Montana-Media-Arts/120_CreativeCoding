@@ -9,6 +9,6 @@ function draw() {
     textSize(36);
     noStroke();
     fill('white');
-    text("'mouseX': " + mouseX, 10, 40 );
-    text("'mouseY': " + mouseY, 10, 80 );
+    text("'mouseX': " + floor(mouseX), 10, 40 );
+    text("'mouseY': " + floor(mouseY), 10, 80 );
 }
