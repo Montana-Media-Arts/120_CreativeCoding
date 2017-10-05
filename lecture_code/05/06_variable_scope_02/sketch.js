@@ -5,15 +5,11 @@
  */
 
  // a globally declared variable
- var global_var = 30;
+var global_var = "I am a global variable";
 
- function setup() {
-     createCanvas( 400, 300 );
-     background( global_var );
- }
+function setup() {
+    createCanvas( 400, 300 );
+    text( global_var, 20, 20 );
+}
 
- function draw() {
-     ellipse( global_var, global_var, global_var );
- }
-
- console.log( global_var );
+console.log( global_var );
