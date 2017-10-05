@@ -1,46 +1,21 @@
-/** EXPLORING VARIABLES
-*
-* 	Sketch from p5-Examples-Variables
-* 	https://p5js.org/examples/data-variables.html
-*
-* 	TODO: Change the values in lines 13, 14, & 15
-*/
-
-// variables defining lines
-// change these values
-// (keep them as Numbers)
-// notice the changes
-var a = 50;
-var b = 120;
-var c = 180;
+/* RE-ASSIGNING VARIABLES */
 
 function setup() {
-  createCanvas(720, 400);
-  background(0);
-  stroke(153);
-  strokeWeight(4);
-  strokeCap(SQUARE);
+	createCanvas( 600, 400 );
+	background( 'rgb(94, 221, 183)' );
 }
 
 function draw() {
-  line(a, b, a+c, b);
-  line(a, b+10, a+c, b+10);
-  line(a, b+20, a+c, b+20);
-  line(a, b+30, a+c, b+30);
+	// declare a variable "point_pos"
+	// and assign it the Number value 10
+	var point_pos = 10;
 
-  a = a + c;
-  b = height-b;
+	// draw a point at 'point_pos'
+	strokeWeight(10);
+	point( point_pos, point_pos );
 
-  line(a, b, a+c, b);
-  line(a, b+10, a+c, b+10);
-  line(a, b+20, a+c, b+20);
-  line(a, b+30, a+c, b+30);
-
-  a = a + c;
-  b = height-b;
-
-  line(a, b, a+c, b);
-  line(a, b+10, a+c, b+10);
-  line(a, b+20, a+c, b+20);
-  line(a, b+30, a+c, b+30);
+	// re-assign 'point_pos' a new value
+	point_pos = 20;
+	// draw another point
+	point( point_pos, point_pos );
 }
