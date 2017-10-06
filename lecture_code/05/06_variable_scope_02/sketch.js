@@ -12,4 +12,8 @@ function setup() {
     text( global_var, 20, 20 );
 }
 
-console.log( global_var );
+// we can even reference the variable here,
+// and we get no errors!
+// NOTE: this is not doing anything,
+// since we are not actually using the variable.
+global_var;
