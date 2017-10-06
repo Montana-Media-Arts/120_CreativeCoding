@@ -1,4 +1,8 @@
+// initial variable. Defines smiley face size.
 var smileySize = 100;
+
+// all other variables are determined in
+// relation to the smileySize variable.
 var eyePos_X = smileySize * 0.2;
 var eyePos_Y = smileySize * -0.15;
 var eyeSize = smileySize * 0.2;
