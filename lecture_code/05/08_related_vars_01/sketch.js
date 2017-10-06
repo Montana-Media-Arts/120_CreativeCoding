@@ -32,6 +32,6 @@ function draw() {
     noStroke();
     fill( 40, 127 );
     arc( 0, smilePos_Y, smileWidth, smileHeight, 0, PI );
-    ellipse( -eyePos_X, eyePos_Y, 20 );
-    ellipse( eyePos_X, eyePos_Y, 20 );
+    ellipse( -eyePos_X, eyePos_Y, eyeSize );
+    ellipse( eyePos_X, eyePos_Y, eyeSize );
 }
