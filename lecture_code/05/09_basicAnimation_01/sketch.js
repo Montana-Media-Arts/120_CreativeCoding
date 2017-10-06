@@ -1,6 +1,6 @@
 function setup() {
-    createCanvas(600,700);
-    background(200, 40, 6);
+    createCanvas( 600, 700 );
+    background( 200, 40, 6 );
 }
 
 // Variables to define ellipse position
@@ -12,7 +12,7 @@ var posX = 0;
 var posY = 0;
 
 function draw() {
-    ellipse(posX,posY,30,30);
+    ellipse( posX, posY, 30, 30 );
 
     // update posX & posY every frame
     // add 1, then re-assign back to self
