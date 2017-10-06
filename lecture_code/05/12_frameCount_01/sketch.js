@@ -8,12 +8,14 @@ var blue_val = 0;
 function draw() {
 
     // set the background every frame
-    background( 47, 215, blue_val );
+    background( 0, 0, blue_val );
     // update blue_val, by adding 1
     blue_val = blue_val + 1;
     // limit blue_val to 255 using modulo
     blue_val = blue_val % 255;
 
     // get and display the current frame count
+    fill( 255 );
+    textSize( 36 );
     text( "frames elapsed: " + frameCount, 10, 20 );
 }
