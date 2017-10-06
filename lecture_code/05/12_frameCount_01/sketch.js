@@ -16,6 +16,6 @@ function draw() {
 
     // get and display the current frame count
     fill( 255 );
-    textSize( 36 );
-    text( "frames elapsed: " + frameCount, 10, 20 );
+    textSize( 24 );
+    text( "frames elapsed: " + frameCount, 10, 30 );
 }
