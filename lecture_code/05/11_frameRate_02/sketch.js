@@ -7,7 +7,7 @@ function setup() {
 
 angle = 0;
 function draw() {
-    background( 'rgb(47, 252, 68)' );
+    background( 'rgb(252, 232, 47)' );
 
     translate( width*0.5, height*0.5 );
     rotate( radians(angle) );

@@ -1,14 +1,20 @@
 function setup() {
     createCanvas( 400, 400 );
-
-    // set the frame rate for the sketch
-    frameRate( 2 );
 }
 
+// declare the angle variable for the ellipse
 angle = 0;
-function draw() {
-    background( 'rgb(252, 115, 47)' );
 
+function draw() {
+
+    // set the frame rate for the sketch
+    var target_fr = mouseX * 0.3 + 0.25;
+    frameRate( target_fr );
+
+    // set the background every frame
+    background( 'rgb(47, 215, 252)' );
+
+    // draw the ellipse
     push();
     translate( width*0.5, height*0.5 );
     rotate( radians(angle) );
@@ -18,6 +24,7 @@ function draw() {
     // update angle position
     angle = angle + 45;
 
+    // get and display the current frame rate
     var fr = frameRate();
     text( "frame rate: " + fr, 10, 20 );
 }
