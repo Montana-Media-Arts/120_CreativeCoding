@@ -1,5 +1,17 @@
-# HW-5 Example for mart191 - Creative Coding
+Michael Musick, 50
 
-This is a simple algorithmic piece that uses perlin noise, and random number generators to draw triangles always connected by two corners to the previous triangle.
+[Live Sketch Link](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/hwExamples/HW-5/)
 
-#### [Link to Live Example](https://montana-media-arts.github.io/191_CreativeCoding/hwExamples/HW-5/)
+
+# HW-5 -- Animation & Variables
+
+For this week, I wanted to create a creepy, variable-based, spinning head person. The goal of this was to;
+
+- utilize p5 reserved word variables, such as `mouseX`,
+- declare and use my own variables,
+- explore simple variable math,
+- and create a sketch that moves around the page.
+
+## Difficulties
+
+I found... _{you would continue on}_

@@ -1,89 +1,131 @@
-
-// DEFINE GLOBAL VARIABLES
-var bgColor;  // background-color
-var centerX, centerY;
-var pos1x = 100, pos1y = 100;
-var pos2x = 200, pos2y = 200;
-var pos3x = 0, pos3y = 0;
-var multMax = 0.01;
-var multDelta;
-var mult;
-var redFill = 255;
-var alphaAmt = 40;
-var alphaNoise;
-
+/**
+ * Creepy Spinning Variable Person
+ *
+ */
 
 function setup() {
-  bgColor = color(50,100,200);
-  createCanvas(windowWidth,windowHeight);
-  background(bgColor);
-  // frameRate(20);
-
-  // Set initial position
-  pos1x = random(width);
-  pos1y = random(height);
-  pos2x = pos1x + 2;
-  pos2y = pos1y - 2;
+    createCanvas( windowWidth, windowHeight );
 }
 
+var headAngle = 0;
+var headRotationRate = 0;
+var armAngle = 0;
+var headWidth = 80;
+var headHeight = 40;
 
 function draw() {
+    // erase every frame
+    background( 'rgb(56, 177, 255)' );
+    // turn the cursor off
+    noCursor();
 
-  centerX = width * 0.5;
-  centerY = height * 0.5;
-
-  multDelta = noise(0.01 * frameCount + pow(2, 8));
-  multDelta = map(multDelta, 0, 1, -0.0001, 0.0001 );
-  multMax = constrain(multMax + multDelta, 0.005, 0.2);
-  mult = random(-multMax, multMax);
-  pos3x = abs(((width * mult) + pos2x) % width);
-  mult = random(-multMax, multMax);
-  pos3y = abs(((height * mult) + pos2y) % height);
-
-
-  mult = noise(frameCount * 0.001) * 255;
-  // mult = map( mult, 0, 1, -10, 10 );
-  // redFill = constrain((redFill + mult), 0, 255);
-  redFill = constrain(mult, 0, 255);
-
-  noStroke();
-  // stroke(200, 20);
-  // get a random noise value between (0-1)
-  alphaNoise = noise(0.1 * frameCount + 1000);
-  alphaNoise = map(alphaNoise, 0, 1, -2, 2);
-  alphaAmt += alphaNoise;
-  alphaAmt = constrain(alphaAmt, 20, 100);
-  fill(redFill,255-redFill,175, 30);
-
-  triangle(pos1x,pos1y,pos2x,pos2y,pos3x,pos3y);
-
-  pos1x = pos2x;
-  pos1y = pos2y;
-  pos2x = pos3x;
-  pos2y = pos3y;
-
-  //////// DEBUGGING STUFF /////////////
-  // ellipse(centerX, centerY, 40, 40);
-  // push();
-  // translate(10, height - 40);
-  // fill(255);
-  // rect(0,0,150,25);
-  // fill(0);
-  // text(frameRate(), 5, 20);
-  // pop();
-}
+    // UPDATE VALUES
+    // base head rotation rate on mouseY pos
+    headRotationRate = (mouseY * 0.1) - 20;
+    // update head angle,
+    // to equal itself plus headRotationRate
+    headAngle = headAngle + headRotationRate;
+    // set the arm to spin at a constant rate
+    armAngle = armAngle - 3;
 
 
+    // *****************************
+    // PERSON SANDBOX
+    // *****************************
+    push();
 
-/* FULLSCREEN FUNCTIONALITY */
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  background(bgColor);
-}
+    // make the person follow the mouse.
+    translate( mouseX, mouseY );
 
-function mousePressed() {
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-    var fs = fullscreen();
-    fullscreen(!fs);
-  }
+    // ARMS
+    push();
+    // right arm
+    strokeWeight( 10 );
+    stroke( 0 );
+    // draw the spinning forarm
+    push();
+    // move the position of the arm
+    // to facilitate rotation
+    translate( 60, -40 );
+    // rotate the arm
+    rotate( radians(armAngle) );
+    // draw the arm
+    line( 0, 0, 50, 0 );
+    // define and draw a hand-thing
+    fill( 'rgb(255, 176, 59)' );
+    noStroke();
+    ellipse( 50, 0, 20 );
+    pop();
+    // draw the static upper arm
+    line( 10, -20, 60, -40 );
+
+    // left arm
+    push();
+    // move the center to facilitate rotate
+    translate( -10, -20 );
+    // rotate, based on mouseX position
+    rotate( radians( mouseX) );
+    // draw arm and hand
+    line( 0, 0, 150, 0);
+    fill( 'rgb(255, 176, 59)' );
+    noStroke();
+    ellipse( 150, 0, 20 );
+    pop();
+    pop();
+
+
+    // BODY
+    // boring body shape
+    ellipse( 0, 0, 40, 100 );
+
+    // HEAD
+    push();
+    noStroke();
+    fill( 'rgb(255, 176, 59)' );
+    // move center
+    translate( 0, -60 );
+    // rotate head based on headAngle
+    rotate( radians(headAngle) );
+    // draw head skull
+    ellipse( 0, 0, headWidth, headHeight );
+    stroke(0);
+    fill(255);
+    // eyes
+    strokeWeight(2);
+    push();
+    // draw eyes based on head size
+    translate( headWidth * -0.2, headHeight * -0.2 );
+    ellipse( 0, 0, headWidth * 0.33, headHeight * 0.33 );
+    noStroke();
+    fill( 'rgb(255, 31, 111)' );
+    ellipse( 0, 0, 10 );
+    fill( 0 );
+    ellipse( 0, 0, 5 );
+    pop();
+    push();
+    translate( headWidth * 0.2, headHeight * -0.2 );
+    ellipse( 0, 0, 20 );
+    noStroke();
+    fill( 'rgb(255, 31, 111)' );
+    ellipse( 0, 0, 10 );
+    fill( 0 );
+    ellipse( 0, 0, 5 );
+    pop();
+
+    // MOUTH
+    push();
+    fill( 0 );
+    arc( 0, headHeight * 0.2, 60, 20, 0, PI );
+    pop();
+    pop(); // <- END HEAD
+
+    // LEGS
+    fill( 255 );
+    noStroke();
+    // keep legs out off bottom of window
+    triangle( -15, 35, 5, 35, -40, height+100 );
+    triangle( 15, 35, -5, 35, 40, height+100 );
+
+    pop(); // <- END PERSON
+
 }

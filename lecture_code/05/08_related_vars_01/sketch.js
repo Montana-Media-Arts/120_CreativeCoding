@@ -18,15 +18,18 @@ function setup() {
 
 
 function draw() {
+
     // ** draw the smily face **
 
-    // follow the mouse
+    // make the smiley face follow the mouse
     translate( mouseX, mouseY );
+
     // draw the outline and head
     stroke( 0 );
     fill('rgba(234, 255, 61, 0.5)');
     // note: the head size is based on a variable
     ellipse( 0, 0, smileySize );
+    
     // draw the mouth and eyes
     // note: that their size and position is dependent on the initial smileySize var.
     noStroke();
