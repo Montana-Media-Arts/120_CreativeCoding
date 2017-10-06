@@ -15,6 +15,7 @@ function draw() {
     ellipse(posX,posY,30,30);
 
     // update posX & posY every frame
+    // add 1, then re-assign back to self
     posX = posX + 1;
     posY = posY + 1;
 }
