@@ -8,8 +8,8 @@ function setup() {
 // Otherwise, if they were defined locally inside draw
 // they would get reset to '100' every frame,
 // and the object would not move
-var posX = 100;
-var posY = 100;
+var posX = 0;
+var posY = 0;
 
 function draw() {
     ellipse(posX,posY,30,30);
