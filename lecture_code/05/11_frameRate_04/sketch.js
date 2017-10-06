@@ -3,7 +3,7 @@ function setup() {
 }
 
 // declare the angle variable for the ellipse
-angle = 0;
+var angle = 0;
 
 function draw() {
 

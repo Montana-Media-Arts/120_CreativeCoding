@@ -5,7 +5,9 @@ function setup() {
     frameRate( 2 );
 }
 
-angle = 0;
+
+var angle = 0;
+
 function draw() {
     background( 'rgb(252, 232, 47)' );
 

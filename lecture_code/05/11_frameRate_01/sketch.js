@@ -2,7 +2,9 @@ function setup() {
     createCanvas( 400, 400 );
 }
 
-angle = 0;
+
+var angle = 0;
+
 function draw() {
     background( 'rgb(47, 252, 68)' );
 
