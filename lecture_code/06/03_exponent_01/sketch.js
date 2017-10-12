@@ -11,10 +11,12 @@ function draw() {
     textSize(24);
 
     // calculate the result of 2 ** exp
-    var result = 2 ** exponent;
+    var operator_result = 2 ** exponent;
+    var func_result = pow( 2, exponent );
 
     // display the equation and result
-    text( "2 ** " + exponent + " = " + result, 20, 40 );
+    text( "2 ** " + exponent + "         = " + operator_result, 20, 40 );
+    text( "pow( 2, " + exponent + " ) = " + func_result, 20, 80 );
 
     // increment the exponent
     exponent = exponent + 1;
