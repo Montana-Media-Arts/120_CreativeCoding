@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 200 );
 }
 
 // declare a variable, 'pos_x'
