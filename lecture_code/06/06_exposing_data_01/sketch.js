@@ -11,6 +11,7 @@ function draw() {
     // Map the x_pos to an exponential based Y-position
     var y_pos = height - ((x_pos / width) ** 3) * height;
     // expose the value of the x and y loc's variable
+    noStroke();
     text( x_pos, 20, 80 );
     text( y_pos, 20, 100 );
 
