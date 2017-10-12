@@ -28,6 +28,6 @@ function draw() {
     fill(0);
     textSize(26);
     var spacing = height * 0.2;
-    text("x = " + x1, 0, y1 + spacing);
-    text("sqrt(x) = " + x2, 0, y2 + spacing);
+    text("x = " + x1, 10, y1 + spacing);
+    text("sqrt(x) = " + x2, 10, y2 + spacing);
 }
