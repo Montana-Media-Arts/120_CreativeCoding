@@ -14,6 +14,7 @@ function draw() {
 
     // calculate the result
     var result = numerator % 3;
+    
     // display the equation and result
     text( numerator + " % 3 = " + result, 20, 80 );
 
