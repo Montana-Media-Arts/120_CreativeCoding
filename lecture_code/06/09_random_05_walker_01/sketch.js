@@ -15,7 +15,7 @@ function setup() {
 function draw() {
 
     // draw the ball
-    fill( 'rgba(37, 141, 159, 0.77)' );
+    fill( 'rgba(37, 141, 159, 0.1)' );
     ellipse(ball_x, ball_y, ball_width, ball_width);
 
     // we want to randomly update the position of the ball
