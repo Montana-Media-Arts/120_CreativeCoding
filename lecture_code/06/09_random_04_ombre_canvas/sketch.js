@@ -41,6 +41,7 @@ function draw() {
   col_g = col_g % 255;
   col_b = col_b % 255;
 
+  noStroke();
   fill(col_r, col_g, 255 - col_b);
   triangle(pt1_x, pt1_y, pt2_x, pt2_y, pt3_x, pt3_y);
 
