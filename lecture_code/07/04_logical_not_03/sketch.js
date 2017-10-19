@@ -16,14 +16,16 @@ var fillColor;
 function draw() {
     background('black');
 
-    // switch bool variable state
-    // use "logical not operator"
-    boolState = !boolState;
-
     // set the fill color for an ellipse
     if( boolState ) {
+        // switch bool variable state
+        boolState = false;
+        // set fill color
         fillColor = 'red';
     } else {
+        // switch bool variable state
+        boolState = true;
+        // set fill color
         fillColor = 'blue';
     }
 
