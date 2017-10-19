@@ -9,14 +9,7 @@ function setup() {
 
     var textStr;
 
-    // pass in "NOT" true
-    if( !true ) {
-        // this block DOES execute
-        textStr = "The result was TRUE";
-    } else {
-        // THIS BLOCK DOES EXECUTE
-        textStr = "The result was FALSE";
-    }
+    textStr = "!false ⇒ " + !false;
 
     // display the results of the if statement
     text( textStr, width/2, height/2 );
