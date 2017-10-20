@@ -23,6 +23,7 @@ function draw() {
     }
 }
 
+// a mouse event to run it again
 function mousePressed() {
     searchNum = -1000;
 }
