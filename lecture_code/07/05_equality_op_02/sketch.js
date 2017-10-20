@@ -6,12 +6,11 @@ var x_pos = 0;
 function setup() {
     createCanvas( windowWidth, 300 );
     // initialize ball color
-    ball_color = color(0, 0, 0);
+    ball_color = color(200, 200, 200, 5);
+    background('white');
 }
 
 function draw() {
-    background( 'rgb(41, 139, 88)' );
-
     // increment x position value
     x_pos++;
     // bound the value within the canvas width
@@ -25,11 +24,13 @@ function draw() {
         ball_color = color(
             random(255),
             random(255),
-            random(255)
+            random(255),
+            5
         );
     } // no else needed
 
     // draw the ball
+    noStroke();
     fill( ball_color );
-    ellipse( x_pos, height/2, height*0.8 );
+    ellipse( x_pos, height/2, height );
 }
