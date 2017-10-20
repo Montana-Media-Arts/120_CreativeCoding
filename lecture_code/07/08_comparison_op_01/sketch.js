@@ -12,4 +12,8 @@ function draw() {
     } else {
         background(255);
     }
+
+    // draw a line in the middle
+    stroke('red');
+    line(width/2, 0, width/2, height);
 }

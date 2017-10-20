@@ -14,7 +14,7 @@ function draw() {
     fill(bg);
     rect(x, y, spacing, spacing);
 
-    // DRAW A DIAGANOL LINE //
+    // draw a diaganol line
     // 50% chance of either direction.
     stroke(0);
     // strokeWeight(2);
@@ -27,7 +27,7 @@ function draw() {
     // update the x position
     x += spacing;
 
-    // CHECK CANVAS BOUNDARIES //
+    // check canvas boundaries,
     // if greater than width, swing back,
     // like a typewriter
     if (x > width) {
