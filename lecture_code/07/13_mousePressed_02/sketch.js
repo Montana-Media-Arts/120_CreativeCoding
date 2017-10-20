@@ -6,7 +6,7 @@ var mouseIsPressed_SIZE = 10;
 var mousePressFunction_SIZE = 10;
 
 function draw() {
-    background( 'rgb(171, 93, 193)' );
+    background( 'rgb(92, 193, 159)' );
 
     // increment while mouse is pressed
     if( mouseIsPressed ) {
@@ -19,6 +19,12 @@ function draw() {
     // mousePressed() based ellipse
     ellipse( width*3/4, height/2, mousePressFunction_SIZE );
 
+    // show some text sizes
+    textAlign(CENTER);
+    textSize(24);
+    fill(0);
+    text(mouseIsPressed_SIZE, width*1/4, 20);
+    text(mousePressFunction_SIZE, width*3/4, 20);
 }
 
 // mouse pressed event function
