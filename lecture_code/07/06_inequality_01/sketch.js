@@ -19,5 +19,10 @@ function draw() {
         background( 'pink' );
         // after finding a random 0, celebrate
         text("Found a random 0!!!", width/2, height/2);
+        text("click the mouse to try again", width/2, height*0.75);
     }
+}
+
+function mousePressed() {
+    searchNum = -1000;
 }
