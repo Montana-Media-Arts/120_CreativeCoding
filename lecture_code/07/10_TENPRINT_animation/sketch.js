@@ -14,20 +14,20 @@ function draw() {
     fill(bg);
     rect(x, y, spacing, spacing);
 
-    // draw a diaganol line
+    //**** DRAW A DIAGONAL LINE ****//
     // 50% chance of either direction.
     stroke(0);
     // strokeWeight(2);
-    if (random(1) > 0.9) {
+    if (random(1) > 0.5) {
         line(x, y, x + spacing, y + spacing);
     } else {
         line(x, y + spacing, x + spacing, y);
     }
 
-    // update the x position
+    //**** UPDATE THE X POSITION ****//
     x += spacing;
 
-    // check canvas boundaries,
+    //**** CHECK CANVAS BOUNDARIES ****//
     // if greater than width, swing back,
     // like a typewriter
     if (x > width) {
