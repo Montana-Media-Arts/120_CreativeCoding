@@ -18,3 +18,9 @@ function draw() {
     }
     x = x + speed;
 }
+
+// reset
+function mousePressed() {
+    x = 0;
+    speed = 3;
+}
