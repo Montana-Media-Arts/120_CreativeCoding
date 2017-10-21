@@ -11,15 +11,16 @@ function setup() {
 }
 
 
+// using 'let' instead of 'var'
+let pos_x = 0;
+let pos_y = 0;
+let d = 30;
+let r = d/2;
+
 function draw() {
     background( 'rgb(3, 78, 115)' );
 
-    // using 'let' instead of 'var'
-    let pos_x = 0;
-    let pos_y = height/2;
-    let d = 30;
-    let r = d/2;
-
+    // define drawing parameters
     fill(255);
     noStroke();
 
@@ -67,4 +68,8 @@ function draw() {
     pos_x = width * 9/10 + r;
     ellipse( pos_x, pos_y, d );
 
+    pos_y++;
+    if (pos_y > height) {
+        pos_y = 0;
+    }
 }
