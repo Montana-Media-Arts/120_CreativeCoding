@@ -45,8 +45,6 @@ function draw() {
 
 
     mult = noise(frameCount * 0.001) * 255;
-    // mult = map( mult, 0, 1, -10, 10 );
-    // redFill = constrain((redFill + mult), 0, 255);
     redFill = constrain(mult, 0, 255);
 
     noStroke();
