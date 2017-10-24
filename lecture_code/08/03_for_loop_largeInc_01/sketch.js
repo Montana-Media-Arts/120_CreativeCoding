@@ -2,13 +2,14 @@
 // Lauren McCarthy, Casey Reas, Ben Fry
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas( windowWidth, 400 );
   strokeWeight(8);
 }
 
 function draw() {
   background(200);
-  for (var i = 20; i < 400; i += 60) { // try changing "60" to other numbers
+  // try changing "60" to other numbers
+  for (let i = 20; i < 400; i += 60) { 
     line(i, 40, i + 60, 80);
   }
 }
