@@ -1,17 +1,17 @@
-// Getting Started with p5.js
+// Originally From: Getting Started with p5.js
 // Lauren McCarthy, Casey Reas, Ben Fry
 
 function setup() {
-  createCanvas( windowWidth, 400 );
-  strokeWeight(8);
+    createCanvas(windowWidth, 400);
+    strokeWeight(8);
 }
 
 function draw() {
-  background(200);
-  // try changing "60" to other numbers
-  for (let i = 20; i < 400; i += 60) { 
-    line(i, 40, i + 60, 80);
-  }
+    background(200);
+    // try changing "60" to other numbers
+    for (let i = 20; i < 400; i += 60) {
+        line(i, 40, i + 60, 80);
+    }
 }
 
 // above is equivalent to
