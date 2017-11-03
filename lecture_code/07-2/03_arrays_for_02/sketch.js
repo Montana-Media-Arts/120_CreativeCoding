@@ -1,9 +1,8 @@
 let numberlist;
 
 function setup() {
-    createCanvas(600, 300);
+    createCanvas(windowWidth, 300);
     numberlist = [50, 20, 100, 25, 5, 75];
-
 }
 
 function draw() {
