@@ -32,7 +32,7 @@ function draw() {
     var x2 = starArr[idxPlus][0] * 50;
     var y2 = starArr[idxPlus][1] * 50;
 
-    var returnlocation = randomstick(x1, y1, x2, y2);
+    var returnlocation = drawStick(x1, y1, x2, y2);
     console.log(returnlocation);
     // background(18, 82, 189, 15);
     // location1 = returnlocation[0];
@@ -41,7 +41,7 @@ function draw() {
     idx = (idx + 1) % starArr.length;
 }
 
-function randomstick(x1, y1, x2, y2) {
+function drawStick(x1, y1, x2, y2) {
 
     strokeWeight(18);
     stroke(random(255), random(255), random(255));

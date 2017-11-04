@@ -1,4 +1,3 @@
-
 // Create a person object
 person = {
     location_x: 0,
@@ -12,7 +11,7 @@ person = {
 
 
 function setup() {
-    createCanvas(800,600);
+    createCanvas(800, 600);
     background(240);
 
     // define person parameters that rely on p5
@@ -38,8 +37,8 @@ function draw() {
 
     // eyes
     fill(person.eye_color);
-    ellipse(-person.eye_size*0.8, -(person.height * 0.25), person.eye_size, person.eye_size);
-    ellipse(person.eye_size*0.8, -(person.height * 0.25), person.eye_size, person.eye_size);
+    ellipse(-person.eye_size * 0.8, -(person.height * 0.25), person.eye_size, person.eye_size);
+    ellipse(person.eye_size * 0.8, -(person.height * 0.25), person.eye_size, person.eye_size);
 
     pop();
 
