@@ -10,7 +10,7 @@ let starArr = [
 let idx = 0;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 500);
     background(18, 82, 189);
     frameRate(2);
 }
