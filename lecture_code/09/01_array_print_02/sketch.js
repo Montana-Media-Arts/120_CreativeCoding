@@ -1,6 +1,6 @@
 // create a filled array
 // This array has strings in its elements
-var stringArray = ["Ha", "JS", ":)"]
+let stringArray = ["Ha", "JS", ":)"]
 
 
 function setup() {

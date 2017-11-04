@@ -3,9 +3,9 @@
 
 // create a filled, array
 // in this case, we have placed in integers
-var myArray = ["Ha", "JS", ":)"];
+let myArray = ["Ha", "JS", ":)"];
 
-var bg_color;
+let bg_color;
 
 function setup() {
     createCanvas(windowWidth,windowHeight);

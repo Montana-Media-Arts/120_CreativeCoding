@@ -1,9 +1,9 @@
 // create an empty array
-var emptyArray = [];
+let emptyArray = [];
 
 // create a filled, array
 // in this case, we have placed in integers
-var numArray = [2, 4, 9, 100];
+let numArray = [2, 4, 9, 100];
 
 
 function setup() {

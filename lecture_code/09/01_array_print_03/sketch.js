@@ -1,5 +1,5 @@
 
-var stringArray = ["Ha", "JS", ":)", "arrays are fun", "p5 is AWESOME!!"];
+let stringArray = ["Ha", "JS", ":)", "arrays are fun", "p5 is AWESOME!!"];
 
 let bg_color = 'rgb( 230, 240, 200 )';
 function setup() {
@@ -15,7 +15,7 @@ function draw() {
 
     text("The index value is: " + idx, 20, 80);
     text("The element is: " + stringArray[idx], 20, 200);
-    
+
     // increment the idx variable
     // also make sure it stays within the bounds of the array
     idx = ( idx + 1 ) % stringArray.length;
