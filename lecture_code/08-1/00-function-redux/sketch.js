@@ -15,7 +15,7 @@ function setup() {
         var size_w = random(20, 80);
         var size_h = random(20, 80);
 
-        dudes[i] = {
+        dudes.push( {
             loc_x: random(width),
             loc_y: random(height),
             move_x: random(-2, 2),
@@ -111,7 +111,7 @@ function setup() {
                     this.loc_y = abs(this.move_y);
                 }
             }
-        };
+        });
     }
 
 }
