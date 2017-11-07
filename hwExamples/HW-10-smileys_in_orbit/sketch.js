@@ -2,7 +2,7 @@ let smileys = [];
 let t = 0;
 
 function setup(){
-    createCanvas( windowWidth, 600 );
+    createCanvas( windowWidth, windowHeight );
 
     // create a bunch of random, sine movement smileys
     for (var i = 0; i < 20; i++) {
