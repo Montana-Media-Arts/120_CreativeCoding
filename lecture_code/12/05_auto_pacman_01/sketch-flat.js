@@ -34,7 +34,7 @@ function setup() {
 // draw loop
 function draw() {
 	let tempArr = [];
-	background(200);
+	background(80);
 
 	// update pacman positions
 	for (let i = 0; i < pacmans.length; i++) {
