@@ -1,6 +1,6 @@
 
 var balls = [];
-var num_of_balls = 5;
+var num_of_balls = 50;
 var bg_color = '#323338';
 
 function setup() {

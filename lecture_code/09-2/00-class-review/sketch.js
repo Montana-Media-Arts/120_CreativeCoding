@@ -1,19 +1,17 @@
 
-var happyface = [];
-var init_numHappyFaces = 2;
-var bg_color;
-var canCreateNewHappyFace = true;
+let happyface = [];
+let init_numHappyFaces = 2;
+let bg_color;
+let canCreateNewHappyFace = true;
 
 function setup() {
     createCanvas(windowWidth,windowHeight);
 
-    // bg_color = color(0, 0, 0, );
+    let init_x = 100;
+    let init_y = 100;
+    let init_size = random(40, 150);
 
-    var init_x = 100;
-    var init_y = 100;
-    var init_size = random(40, 150);
-
-    for (var i = 0; i < init_numHappyFaces; i++) {
+    for (let i = 0; i < init_numHappyFaces; i++) {
         happyface.push(
             new Happyface(init_x, init_y, init_size, randomColor())
         );
@@ -31,7 +29,7 @@ function draw() {
 
     canCreateNewHappyFace = true;
 
-    for (var i = 0; i < happyface.length; i++) {
+    for (let i = 0; i < happyface.length; i++) {
         happyface[i].frame(happyface, i);
     }
 
@@ -43,7 +41,7 @@ function randomColor() {
 
 
 function createNewHappyFace(){
-    for (var i = 0; i < 2; i++) {
+    for (let i = 0; i < 2; i++) {
         happyface.push(
             new Happyface(random(width), random(height), random(20, 150), randomColor())
         );
