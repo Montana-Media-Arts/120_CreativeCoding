@@ -10,7 +10,7 @@ Automatic PacMan Example
 
 // Define an empty PacMan object Array
 let pacmans = [];
-let numPacMans = 100;
+let numPacMans = 50;
 
 // setup function
 function setup() {
