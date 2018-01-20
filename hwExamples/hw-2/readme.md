@@ -1,4 +1,4 @@
-Michael Musick 50
+Michael Musick
 
 # HW-2 Response Document
 

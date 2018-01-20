@@ -1,4 +1,4 @@
-# Course Resource Repo <br>Creative Coding 1 - MART 120
+# Course Resource Repo<br>Creative Coding 1 - MART 120
 
 This is the resources repository and homework wiki for the web-based version of Creative Coding 1 at the School of Media Arts, University of Montana.
 
