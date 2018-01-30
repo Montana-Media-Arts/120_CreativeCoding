@@ -12,7 +12,7 @@ This repository contains;
 - code examples included in the online lecture content.
 - General p5 code examples.
 - Examples of how to complete select homework assignments.
-- The currently course recognized and supported p5 "empty-example".
+- The course recognized and supported p5 "empty-example".
 - The wiki where idea and project sharing occurs.
 - The issues board, where students can ask for help on problems, or other quandaries.
 
@@ -31,4 +31,4 @@ Utilizing [p5.js](https://p5js.org), this course teaches concepts from computer 
 
 - Professor Michael Musick
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
-- Office: McGill Hall, 224.
+- Office: McGill Hall, 232.
