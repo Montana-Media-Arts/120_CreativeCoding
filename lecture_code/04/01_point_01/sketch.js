@@ -4,5 +4,6 @@ function setup() {
 }
 
 function draw() {
+    strokeWeight(10);
     point( 100, 50 );
 }
