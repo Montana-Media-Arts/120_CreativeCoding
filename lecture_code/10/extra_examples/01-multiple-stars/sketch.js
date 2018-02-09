@@ -13,7 +13,8 @@ var idx = 0;
 
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    // createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 800);
     background(18, 82, 189);
     // frameRate(20);
 

@@ -3,7 +3,8 @@ let num_of_dudes = 20;
 let bg_color;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    // createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 800);
     bg_color = color(34, 131, 157);
 
     for (let i = 0; i < num_of_dudes; i++) {

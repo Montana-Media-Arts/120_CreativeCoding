@@ -6,7 +6,8 @@
 let ball;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    // createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 800);
 
     // create a new ball object of class type "Ball"
     ball = new Ball(width / 2, height / 2, 50, 'red');

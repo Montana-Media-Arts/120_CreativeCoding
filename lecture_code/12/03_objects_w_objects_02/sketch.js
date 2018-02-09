@@ -7,7 +7,8 @@ let balls = [];
 const numOfBalls = 20;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    // createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 800);
 
     // create a new ball object of class type "Ball"
     let init_x = 60;
