@@ -1,6 +1,6 @@
 
 
-var ball = {};
+let ball = {};
 ball.width = 40;
 ball.x = 10;
 ball.y = 10;

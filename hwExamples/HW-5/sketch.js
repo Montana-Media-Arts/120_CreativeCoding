@@ -7,11 +7,11 @@ function setup() {
     createCanvas( windowWidth, windowHeight );
 }
 
-var headAngle = 0;
-var headRotationRate = 0;
-var armAngle = 0;
-var headWidth = 80;
-var headHeight = 40;
+let headAngle = 0;
+let headRotationRate = 0;
+let armAngle = 0;
+let headWidth = 80;
+let headHeight = 40;
 
 function draw() {
     // erase every frame

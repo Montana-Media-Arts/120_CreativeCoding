@@ -1,24 +1,25 @@
 // DEFINE GLOBAL VARIABLES
-var bgColor; // background-color
-var centerX, centerY;
-var smoke = {};
+let bgColor; // background-color
+let centerX, centerY;
+let smoke = {};
 smoke.pos1x = 100;
 smoke.pos1y = 100;
 smoke.pos2x = 200;
 smoke.pos2y = 200;
 smoke.pos3x = 0;
 smoke.pos3y = 0;
-var multMax = 0.01;
-var multDelta;
-var mult;
-var redFill = 255;
-var alphaAmt = 40;
-var alphaNoise;
+let multMax = 0.01;
+let multDelta;
+let mult;
+let redFill = 255;
+let alphaAmt = 40;
+let alphaNoise;
 
 
 function setup() {
     bgColor = color(50, 100, 200);
-    createCanvas(windowWidth, windowHeight);
+    // createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 800);
     background(bgColor);
     // frameRate(20);
 
@@ -84,7 +85,7 @@ function windowResized() {
 
 function mousePressed() {
     if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-        var fs = fullscreen();
+        let fs = fullscreen();
         fullscreen(!fs);
     }
 }
