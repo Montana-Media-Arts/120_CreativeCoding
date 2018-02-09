@@ -1,5 +1,5 @@
 // declare a variable named "quarter_width"
-var quarter_width;
+let quarter_width;
 
 function setup() {
     createCanvas(400, 200);

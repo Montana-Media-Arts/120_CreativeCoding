@@ -1,6 +1,6 @@
 // initialize bgColor and loopNum variables
-var bgColor = 'red';
-var loopNum = 0;
+let bgColor = 'red';
+let loopNum = 0;
 
 function setup() {
     createCanvas( windowWidth, 300 );

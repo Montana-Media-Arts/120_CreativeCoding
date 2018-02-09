@@ -1,14 +1,14 @@
 // initial variable. Defines smiley face size.
-var smileySize = 100;
+let smileySize = 100;
 
 // all other variables are determined in
 // relation to the smileySize variable.
-var eyePos_X = smileySize * 0.2;
-var eyePos_Y = smileySize * -0.15;
-var eyeSize = smileySize * 0.2;
-var smilePos_Y = smileySize * 0.15;
-var smileWidth = smileySize * 0.75;
-var smileHeight = smileySize * 0.50;
+let eyePos_X = smileySize * 0.2;
+let eyePos_Y = smileySize * -0.15;
+let eyeSize = smileySize * 0.2;
+let smilePos_Y = smileySize * 0.15;
+let smileWidth = smileySize * 0.75;
+let smileHeight = smileySize * 0.50;
 
 
 function setup() {
@@ -32,7 +32,7 @@ function draw() {
     ellipse( 0, 0, smileySize );
     
     // draw the mouth and eyes
-    // note: that their size and position is dependent on the initial smileySize var.
+    // note: that their size and position is dependent on the initial smileySize let.
     noStroke();
     fill( 40, 127 );
     arc( 0, smilePos_Y, smileWidth, smileHeight, 0, PI );

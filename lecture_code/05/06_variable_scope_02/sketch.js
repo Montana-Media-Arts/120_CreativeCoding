@@ -5,7 +5,7 @@
  */
 
  // a globally declared variable
-var global_var = "I am a global variable";
+let global_var = "I am a global variable";
 
 function setup() {
     createCanvas( 400, 300 );

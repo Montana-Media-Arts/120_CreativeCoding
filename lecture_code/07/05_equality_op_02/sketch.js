@@ -1,7 +1,7 @@
 // initialize bgColor and loopNum variables
-var ball_color;
-var fill_counter = 0;
-var x_pos = 0;
+let ball_color;
+let fill_counter = 0;
+let x_pos = 0;
 
 function setup() {
     createCanvas( windowWidth, 300 );

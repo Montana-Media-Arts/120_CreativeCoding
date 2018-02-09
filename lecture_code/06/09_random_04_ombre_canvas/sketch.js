@@ -1,12 +1,12 @@
 // declare environment variables
-var pt1_x, pt1_y;
-var pt2_x, pt2_y;
-var pt3_x;
-var pt3_y;
+let pt1_x, pt1_y;
+let pt2_x, pt2_y;
+let pt3_x;
+let pt3_y;
 
-var col_r = 0;
-var col_g = 10;
-var col_b = 0;
+let col_r = 0;
+let col_g = 10;
+let col_b = 0;
 
 function setup() {
     // createCanvas( windowWidth, windowHeight );

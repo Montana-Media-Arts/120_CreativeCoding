@@ -1,6 +1,6 @@
-var x = 300;
-var y = 200;
-var d = 100;
+let x = 300;
+let y = 200;
+let d = 100;
 
 function setup() {
   createCanvas(600, 400);

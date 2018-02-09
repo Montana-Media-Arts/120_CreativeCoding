@@ -1,9 +1,9 @@
-var x = 200;
-var y = 200;
-var diameter = 5;
+let x = 200;
+let y = 200;
+let diameter = 5;
 
 // this variable keeps track of whether circle should drag or not
-var dragging = false;
+let dragging = false;
 
 function setup() {
   createCanvas(400, 400);

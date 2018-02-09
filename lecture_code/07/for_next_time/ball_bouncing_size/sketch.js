@@ -1,6 +1,6 @@
-var dir = 1;
-var speed = 5;
-var d = 50;
+let dir = 1;
+let speed = 5;
+let d = 50;
 
 function setup() {
   createCanvas(600, 400);

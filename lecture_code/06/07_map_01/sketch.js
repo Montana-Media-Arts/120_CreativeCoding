@@ -1,5 +1,5 @@
-var circle_min = 10;
-var circle_max;
+let circle_min = 10;
+let circle_max;
 
 function setup() {
     createCanvas( windowWidth, 600 );
@@ -13,7 +13,7 @@ function draw() {
     background( 'rgb(43, 255, 96)' );
 
     // map mouseX to the size of a circle
-    var circle_size = map( mouseX, 0, width, circle_min, circle_max );
+    let circle_size = map( mouseX, 0, width, circle_min, circle_max );
 
     // draw a circle, based on mouseX
     fill(255);

@@ -6,11 +6,11 @@
 
 function setup() {
     // decalre a variable 'local_var' inside setup()
-    var local_var = 3;
+    let local_var = 3;
     // we can now use "local_var" in here.
     ellipse( local_var, local_var, local_var );
 }
 
-// however, if we try to use local var outside of the function
+// however, if we try to use local let outside of the function
 // we will run into an "Uncaught Reference" error.
 console.log( local_var );

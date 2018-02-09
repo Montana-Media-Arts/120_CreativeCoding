@@ -3,4 +3,4 @@ function setup() {
     background( 'grey' );
 }
 
-var global_var = "Hello There!";
+let global_var = "Hello There!";

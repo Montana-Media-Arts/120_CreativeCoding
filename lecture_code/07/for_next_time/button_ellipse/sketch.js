@@ -1,7 +1,7 @@
-var x = 300;
-var y = 200;
-var d = 50;
-var g = 0;
+let x = 300;
+let y = 200;
+let d = 50;
+let g = 0;
 
 function setup() {
   createCanvas(600, 400);

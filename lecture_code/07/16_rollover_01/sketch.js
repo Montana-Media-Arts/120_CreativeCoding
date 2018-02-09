@@ -1,8 +1,8 @@
 // Rollover Rect
 
-var x = 250;
-var y = 150;
-var box_size = 100;
+let x = 250;
+let y = 150;
+let box_size = 100;
 
 function setup() {
     createCanvas(windowWidth, 400);

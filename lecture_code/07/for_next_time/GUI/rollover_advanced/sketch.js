@@ -7,10 +7,10 @@
 // Hint: you need four variables, one for each rectangle's color.
 
 // Four variables, one for each square's brightness level
-var bright0 = 0;
-var bright1 = 0;
-var bright2 = 0;
-var bright3 = 0;
+let bright0 = 0;
+let bright1 = 0;
+let bright2 = 0;
+let bright3 = 0;
 
 function setup() { 
   createCanvas(640,360); 

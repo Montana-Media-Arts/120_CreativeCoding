@@ -1,11 +1,11 @@
 // Click and Drag an object
 // Daniel Shiffman <http://www.shiffman.net>
 
-var dragging = false; // Is the object being dragged?
-var rollover = false; // Is the mouse over the ellipse?
+let dragging = false; // Is the object being dragged?
+let rollover = false; // Is the mouse over the ellipse?
 
-var x, y, w, h;          // Location and size
-var offsetX, offsetY;    // Mouseclick offset
+let x, y, w, h;          // Location and size
+let offsetX, offsetY;    // Mouseclick offset
 
 function setup() {
   createCanvas(640, 360);

@@ -3,12 +3,12 @@
 // http://www.learningprocessing.com
 
 // Example 5-4: Hold down the button
-var button = false;
+let button = false;
 
-var x = 50;
-var y = 50;
-var w = 100;
-var h = 75;
+let x = 50;
+let y = 50;
+let w = 100;
+let h = 75;
 
 function setup() {
   createCanvas(200,200); 

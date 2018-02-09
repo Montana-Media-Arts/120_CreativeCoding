@@ -11,7 +11,7 @@ function setup() {
 }
 
 
-// using 'let' instead of 'var'
+// using 'let' instead of 'let'
 let pos_x = 0;
 let pos_y = 0;
 let d = 30;
@@ -26,7 +26,7 @@ function draw() {
 
     // USE A FOR LOOP
 
-    for (var i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i++) {
         // find the x_pos
         pos_x = width * i / 10 + r;
         // draw an ellipse

@@ -1,8 +1,7 @@
 function setup() {
     // get p5 to query the size of the browser window
     // then create a canvas the same size.
-    // createCanvas( windowWidth, windowHeight );
-    createCanvas( windowWidth, 600 );
+    createCanvas( windowWidth, windowHeight );
 }
 
 function draw() {

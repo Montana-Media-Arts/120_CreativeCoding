@@ -7,8 +7,8 @@ function setup() {
 
 function draw() {
 	background(0);
-	for (var y = 32; y <= height; y += 8) {
-		for (var x = 12; x <= width; x += 15) {
+	for (let y = 32; y <= height; y += 8) {
+		for (let x = 12; x <= width; x += 15) {
 			fill(255);
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}

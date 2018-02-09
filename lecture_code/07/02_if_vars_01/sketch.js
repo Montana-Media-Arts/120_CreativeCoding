@@ -7,7 +7,7 @@ function setup() {
     frameRate(0.5);
 }
 
-var conditionalValue = false;
+let conditionalValue = false;
 function draw() {
     background('white');
 

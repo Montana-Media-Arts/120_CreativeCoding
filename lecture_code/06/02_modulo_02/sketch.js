@@ -7,7 +7,7 @@ function setup() {
 
 // declare a variable, 'value'
 // instantiate the variable to '0'
-var value = 0;
+let value = 0;
 
 function draw() {
     background( 'rgb(63, 186, 218)' );

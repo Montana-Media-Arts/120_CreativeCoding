@@ -5,7 +5,7 @@ function setup() {
 // declare a variable, 'pos_x'
 // instantiate the variable to '20'
 // This will represent the position of an ellipse
-var pos_x = 20;
+let pos_x = 20;
 
 function draw() {
     background( 'rgb(218, 63, 161)' );

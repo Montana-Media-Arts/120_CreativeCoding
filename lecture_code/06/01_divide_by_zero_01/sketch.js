@@ -4,7 +4,7 @@ function setup() {
     background( '0' );
 
     // divide by 0 examples
-    var result;
+    let result;
     result = 1 / 0;
     // results in infinity
     console.log( result );

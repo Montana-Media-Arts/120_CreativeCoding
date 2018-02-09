@@ -6,7 +6,7 @@ function setup() {
 }
 
 
-var angle = 0;
+let angle = 0;
 
 function draw() {
     background( 'rgb(252, 232, 47)' );

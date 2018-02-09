@@ -3,12 +3,12 @@ function setup() {
 }
 
 // declare the angle variable for the ellipse
-var angle = 0;
+let angle = 0;
 
 function draw() {
 
     // set the frame rate for the sketch
-    var target_fr = mouseX * 0.3 + 0.25;
+    let target_fr = mouseX * 0.3 + 0.25;
     frameRate( target_fr );
 
     // set the background every frame
@@ -25,6 +25,6 @@ function draw() {
     angle = angle + 45;
 
     // get and display the current frame rate
-    var fr = frameRate();
+    let fr = frameRate();
     text( "frame rate: " + fr, 10, 20 );
 }

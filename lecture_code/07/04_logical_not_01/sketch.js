@@ -7,7 +7,7 @@ function setup() {
     textSize(36);
     textAlign(CENTER,CENTER);
 
-    var textStr;
+    let textStr;
 
     // pass in "NOT" true
     if( !true ) {

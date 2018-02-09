@@ -1,4 +1,4 @@
-var on = false;
+let on = false;
 
 function setup() {
     createCanvas( windowWidth, 400 );

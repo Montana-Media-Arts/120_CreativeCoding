@@ -4,8 +4,8 @@ function setup() {
     frameRate(2);
 }
 
-var inc_val = 0;
-var dec_val = 100;
+let inc_val = 0;
+let dec_val = 100;
 
 function draw() {
     background( 'rgb(237, 158, 158)' );

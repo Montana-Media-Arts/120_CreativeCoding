@@ -4,13 +4,13 @@ function setup() {
 }
 
 // declare an independent variable for x_pos
-var x_pos = 0;
+let x_pos = 0;
 
 function draw() {
     background( 'rgb(33, 66, 62)' );
 
     // Map the x_pos to an exponential based Y-position
-    var y_pos = height - ((x_pos / width) ** 3) * height;
+    let y_pos = height - ((x_pos / width) ** 3) * height;
     // expose the value of the x and y loc's variable
     noStroke();
     console.log( x_pos );

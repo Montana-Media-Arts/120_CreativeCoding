@@ -4,15 +4,15 @@ function setup() {
     frameRate(2);
 }
 
-var exponent = 0;
+let exponent = 0;
 
 function draw() {
     background( 'rgb(63, 186, 218)' );
     textSize(24);
 
     // calculate the result of 2 ** exp
-    var operator_result = 2 ** exponent;
-    var func_result = pow( 2, exponent );
+    let operator_result = 2 ** exponent;
+    let func_result = pow( 2, exponent );
 
     // display the equation and result
     text( "2 ** " + exponent + "         = " + operator_result, 20, 40 );

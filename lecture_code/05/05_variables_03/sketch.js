@@ -10,9 +10,9 @@
 // change these values
 // (keep them as Numbers)
 // notice the changes
-var a = 50;
-var b = 120;
-var c = 180;
+let a = 50;
+let b = 120;
+let c = 180;
 
 function setup() {
   createCanvas(720, 400);

@@ -10,8 +10,8 @@ function setup() {
 }
 
 // declare an initialize global variables
-var boolState = false;
-var fillColor;
+let boolState = false;
+let fillColor;
 
 function draw() {
     background('black');

@@ -1,6 +1,6 @@
 // define a smiley variable.
 // instantiate the variable as an object
-var smiley = {};
+let smiley = {};
 
 // we can then assign qualities to the object
 smiley.size = 150;

@@ -1,9 +1,9 @@
 /* VARIABLES */
 
-// -> To declare we use the keyword 'var'
+// -> To declare we use the keyword 'let'
 // This declares to the computer a new piece of reserved memory
 // This memory is referenced by the namespace "myFirstVar"
-var myFirstVar;
+let myFirstVar;
 
 // Assign a value to the Variable
 // Said "myFirstVar *gets* 120"

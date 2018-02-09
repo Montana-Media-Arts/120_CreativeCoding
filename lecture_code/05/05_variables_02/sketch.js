@@ -8,7 +8,7 @@ function setup() {
 function draw() {
 	// declare a variable "point_pos"
 	// and assign it the Number value 10
-	var point_pos = 10;
+	let point_pos = 10;
 
 	// draw a point at 'point_pos'
 	strokeWeight(10);

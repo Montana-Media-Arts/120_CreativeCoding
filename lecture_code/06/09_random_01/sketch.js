@@ -8,7 +8,7 @@ function draw() {
     background( 'rgb(74, 52, 103)' );
 
     // get a new random number every frame
-    var rand = random();
+    let rand = random();
 
     // print the number to the canvas
     textSize(26);

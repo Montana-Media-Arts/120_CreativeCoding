@@ -6,14 +6,14 @@ function setup() {
 function draw() {
   background( 'rgb(137, 140, 204)' );
 
-  var leftWall = 50;
-  var rightWall = width - 50;
+  let leftWall = 50;
+  let rightWall = width - 50;
 
   // xm is just the mouseX, while
   // xc is the mouseX, but constrained
   // between the leftWall and rightWall!
-  var xm = mouseX;
-  var xc = constrain(mouseX, leftWall, rightWall);
+  let xm = mouseX;
+  let xc = constrain(mouseX, leftWall, rightWall);
 
   // Draw the walls.
   stroke( 'red' );

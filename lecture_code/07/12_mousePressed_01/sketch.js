@@ -2,7 +2,7 @@ function setup() {
     createCanvas( windowWidth, 400 );
 }
 
-var mouseCounter = 0;
+let mouseCounter = 0;
 
 function draw() {
     background( 'rgb(171, 93, 193)' );
@@ -13,7 +13,7 @@ function draw() {
 
     // print the number of times
     // the mouse has been pressed.
-    var str = "Mouse clicked " + mouseCounter + " times.";
+    let str = "Mouse clicked " + mouseCounter + " times.";
     text( str, width/2, height/2 );
 }
 

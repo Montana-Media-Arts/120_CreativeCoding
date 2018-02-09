@@ -1,19 +1,19 @@
 // Simple Slider
 // Daniel Shiffman <http://www.shiffman.net>
 
-var dragging = false; // Is the slider being dragged?
-var rollover = false; // Is the mouse over the slider?
+let dragging = false; // Is the slider being dragged?
+let rollover = false; // Is the mouse over the slider?
 
 // Rectangle variables for slider
-var x = 100;
-var y = 25;
-var w = 10;
-var h = 50;
+let x = 100;
+let y = 25;
+let w = 10;
+let h = 50;
 // Start and end of slider
-var sliderStart = 100;
-var sliderEnd = 400;
+let sliderStart = 100;
+let sliderEnd = 400;
 // Offset for dragging slider
-var offsetX = 0;
+let offsetX = 0;
 
 function setup() {
   createCanvas(640, 360);
@@ -46,7 +46,7 @@ function draw() {
 
   // Map is an amazing function that will map one range to another!
   // Here we take the slider's range and map it to a value between 0 and 255
-  var b = map(x,sliderStart,sliderEnd-w,0,255);
+  let b = map(x,sliderStart,sliderEnd-w,0,255);
   fill(b);
   rect(sliderStart, 100, sliderEnd-sliderStart, 150);
 }

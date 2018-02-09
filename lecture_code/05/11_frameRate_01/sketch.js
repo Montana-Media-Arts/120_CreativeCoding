@@ -3,7 +3,7 @@ function setup() {
 }
 
 
-var angle = 0;
+let angle = 0;
 
 function draw() {
     background( 'rgb(47, 252, 68)' );

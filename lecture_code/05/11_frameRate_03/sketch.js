@@ -5,7 +5,7 @@ function setup() {
     frameRate( 2 );
 }
 
-var angle = 0;
+let angle = 0;
 
 function draw() {
     background( 'rgb(252, 115, 47)' );
@@ -19,6 +19,6 @@ function draw() {
     // update angle position
     angle = angle + 45;
 
-    var fr = frameRate();
+    let fr = frameRate();
     text( "frame rate: " + fr, 10, 20 );
 }

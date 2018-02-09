@@ -5,7 +5,7 @@ function setup() {
     textAlign(CENTER,CENTER);
 }
 
-var searchNum = -10000;
+let searchNum = -10000;
 
 function draw() {
 

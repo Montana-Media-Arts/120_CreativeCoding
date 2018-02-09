@@ -1,7 +1,7 @@
-var pos_x;
-var pos_y;
-var point_width = 1;
-var max_pos_mvt = 1;
+let pos_x;
+let pos_y;
+let point_width = 1;
+let max_pos_mvt = 1;
 
 function setup() {
     // createCanvas( windowWidth, windowHeight );

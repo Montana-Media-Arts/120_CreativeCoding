@@ -11,7 +11,7 @@ function setup() {
 }
 
 
-// using 'let' instead of 'var'
+// using 'let' instead of 'let'
 let pos_x = 0;
 let pos_y = 0;
 let d = 30;

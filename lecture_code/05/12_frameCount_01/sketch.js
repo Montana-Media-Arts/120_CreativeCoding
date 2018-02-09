@@ -3,7 +3,7 @@ function setup() {
 }
 
 // declare the blue variable for the bg
-var blue_val = 0;
+let blue_val = 0;
 
 function draw() {
 

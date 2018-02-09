@@ -2,8 +2,8 @@ function setup() {
     createCanvas( windowWidth, 400 );
 }
 
-var mouseIsPressed_SIZE = 10;
-var mousePressFunction_SIZE = 10;
+let mouseIsPressed_SIZE = 10;
+let mousePressFunction_SIZE = 10;
 
 function draw() {
     background( 'rgb(92, 193, 159)' );

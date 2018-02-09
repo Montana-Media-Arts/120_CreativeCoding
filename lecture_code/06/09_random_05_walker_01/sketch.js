@@ -1,8 +1,8 @@
-var ball_x;
-var ball_y;
-var ball_width = 80;
+let ball_x;
+let ball_y;
+let ball_width = 80;
 
-var max_ball_mvt = 2;
+let max_ball_mvt = 2;
 
 function setup() {
     // createCanvas( windowWidth, windowHeight );
