@@ -1,5 +1,6 @@
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background( '0' );
 
     // divide by 0 examples

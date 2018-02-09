@@ -1,5 +1,6 @@
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     // set a low frame rate so that you can see the change
     // frameRate is set to 0.5 frames per second
     // or 1 frame every 2 seconds.

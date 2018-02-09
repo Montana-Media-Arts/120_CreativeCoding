@@ -11,7 +11,8 @@ smiley.pos_x = 0;
 smiley.pos_y = 0;
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background( '0' );
 
     smiley.pos_x = width/2;

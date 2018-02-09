@@ -9,7 +9,8 @@ var col_g = 10;
 var col_b = 0;
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background(0);
 
     pt1_x = 0 - width;

@@ -5,7 +5,8 @@ var ball_width = 80;
 var max_ball_mvt = 2;
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background(255);
 
     ball_x = width * 0.5;

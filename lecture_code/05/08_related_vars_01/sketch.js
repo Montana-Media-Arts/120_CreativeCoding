@@ -12,7 +12,8 @@ var smileHeight = smileySize * 0.50;
 
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background( 'rgb(61, 175, 120)' );
 }
 

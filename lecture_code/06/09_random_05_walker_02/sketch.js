@@ -4,7 +4,8 @@ var point_width = 1;
 var max_pos_mvt = 1;
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background(255);
 
     // specify initial position to be center of canvas
