@@ -4,7 +4,8 @@
  */
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 800 );
+    // createCanvas( windowWidth, windowHeight );
 }
 
 let headAngle = 0;
