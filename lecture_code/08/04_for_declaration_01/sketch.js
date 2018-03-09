@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
 	background(200);
-	for (let i = 20; i < 400; i += 20) {
-		line(i, 0, 1.5*i, 120);
+	for (let x = 20; x < 400; x += 20) {
+		line(x, 0, 1.5*x, 120);
 	}
 }
