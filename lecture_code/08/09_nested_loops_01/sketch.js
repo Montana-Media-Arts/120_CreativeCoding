@@ -2,7 +2,7 @@
 // Lauren McCarthy, Casey Reas, Ben Fry
 
 function setup() {
-	createCanvas(480, 120);
+	createCanvas(windowWidth, 120);
 }
 
 function draw() {

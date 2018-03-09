@@ -3,7 +3,7 @@
 
 let option = 5;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 800);
   noFill();
 }
 

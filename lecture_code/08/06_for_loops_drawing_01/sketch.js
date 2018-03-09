@@ -1,11 +1,11 @@
-// originally from: 
+// originally from:
 // Getting Started with p5.js
 // Lauren McCarthy, Casey Reas, Ben Fry
 
 // SEE ALSO: nested_loops1
 
 function setup() {
-	createCanvas(600, 400);
+	createCanvas(windowWidth, 400);
 	noStroke();
 }
 
