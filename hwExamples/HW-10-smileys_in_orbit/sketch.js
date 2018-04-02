@@ -32,7 +32,7 @@ function draw() {
     // determine the number of smileys to draw in the array
     // based on mouse position
     // i.e. left=0 - right=all
-    let numToDraw = map( mouseX, 0, width, 0, smileys.length );
+    let numToDraw = map( mouseX, 0, width, 1, smileys.length );
     for ( let i = 0; i < numToDraw; i++ ) {
         // draw the smileys
         drawSmiley( smileys[i], t );
