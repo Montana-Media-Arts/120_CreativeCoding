@@ -245,10 +245,6 @@ class PacMan {
                 this.wait = true;
             }
 
-            // this.curDist = curDist;
-            // this.minDist = minDist;
-            // this.xDiff = xDiff;
-            // this.yDiff = yDiff;
         }
     }
 
