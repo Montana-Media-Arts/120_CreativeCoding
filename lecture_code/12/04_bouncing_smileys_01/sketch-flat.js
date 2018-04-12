@@ -5,7 +5,7 @@ let bg_color;
 let canCreateNewHappyFace = true;
 
 function setup() {
-    createCanvas(windowWidth,windowHeight);
+    createCanvas(windowWidth,800);
 
     let init_x = 100;
     let init_y = 100;

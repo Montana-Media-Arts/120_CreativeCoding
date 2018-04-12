@@ -14,7 +14,7 @@ let numPacMans = 50;
 
 // setup function
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, 800);
 
 	// create some pacmans
 	let xpos = 0;
