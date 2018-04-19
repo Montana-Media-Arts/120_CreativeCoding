@@ -12,7 +12,7 @@ function setup() {
     createCanvas(windowWidth,windowHeight);
     background(bg);
     cats[0] = new Cat(100, 100, cat_img, 0);
-    cats[1] = new Cat(1020, 100, cat_img, 1);
+    cats[1] = new Cat(1015, 100, cat_img, 1);
 }
 
 function draw() {
@@ -25,9 +25,10 @@ function draw() {
 }
 
 
+
 ////////////////////////////////////////////////
 /* CAT CLASS */
-// Constructor Function
+
 class Cat {
     constructor(init_x, init_y, img, orientation){
         this.pos = {
@@ -104,4 +105,5 @@ class Cat {
             this.sprite_num %= 8;
         }
     }
+
 }

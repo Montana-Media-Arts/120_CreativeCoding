@@ -12,7 +12,7 @@ function setup() {
     createCanvas(windowWidth,windowHeight);
     background(bg);
     cats[0] = new Cat(100, 100, cat_img, 0);
-    cats[1] = new Cat(1020, 100, cat_img, 1);
+    cats[1] = new Cat(1015, 100, cat_img, 1);
 }
 
 function draw() {

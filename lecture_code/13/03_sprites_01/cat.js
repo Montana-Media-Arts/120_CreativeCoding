@@ -75,4 +75,5 @@ class Cat {
             this.sprite_num %= 8;
         }
     }
+
 }
