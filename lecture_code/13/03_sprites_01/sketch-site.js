@@ -91,13 +91,13 @@ class Cat {
             // The top left corner of the sub rectangle
             this.subRect[this.sprite_num][0], this.subRect[this.sprite_num][1],
             // the size of the subrectangle
-            this.size.w, this.size.h);
-
+            this.size.w, this.size.h
+        );
+        
         pop();
     }
 
     animate() {
-
         // update the sprite num
         // This adjusts the subrectangle positions
         if (frameCount % this.speed === 0) {
