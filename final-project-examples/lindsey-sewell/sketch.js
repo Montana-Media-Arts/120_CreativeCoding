@@ -24,7 +24,7 @@ function mouseClicked() {
 function setup() {
 
 
-createCanvas(1280, 700);
+createCanvas(windowWidth, windowHeight);
  amplitude = new p5.Amplitude();
 
   fft = new p5.FFT(0.2, 16);
